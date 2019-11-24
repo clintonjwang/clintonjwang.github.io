@@ -8,6 +8,73 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student at the Massachusetts Institute of Technology (MIT), advised by [Polina Golland](https://people.csail.mit.edu/polina/). My primary research interest is in analyzing medical imaging data using computer vision and machine learning, to provide insights into diseases and improve the quality of clinical care.
+I am a second-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am also interested in generative models, multimodal learning, and interpretability.
 
 I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a Bachelor's Degree in Biomedical Engineering at Yale, where I worked on computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+
+<style type="text/css">
+	table, th, td {
+	  border: 0px solid black;
+	}
+	table.pub_table {
+		width: 100%;
+		font-size: 12pt;
+	}
+	td.pub_td1 {
+		width: 33%;
+	}
+	td.pub_td2 {
+		width: 67%;
+	}
+</style>
+
+<body>
+<div class='section_div' id="papers">
+
+<h2>Publications</h2>
+
+<table class="pub_table">
+<!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/spie19_teaser.jpg"/></a></div></td>
+	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>Clinton Wang, Charlie Hamm, Brian Letzen, James Duncan<br><i>SPIE Medical Imaging Conference</i> 2019<br>
+	<a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+</td></tr>
+
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/euro_rad_part1.png"/></a></div></td>
+	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, Clinton Wang*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
+	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+</td></tr>
+
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/euro_rad_part2.png"/></a></div></td>
+	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>Clinton Wang*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, James Duncan, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
+	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+</td></tr>
+
+
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/jvir_review_teaser.jpg"/></a></div></td>
+	<td class="pub_td2"><b>The Role of Artificial Intelligence in Interventional Oncology: A Primer</b><br>Brian Letzen, Clinton Wang, Julius Chapiro<br><i>Journal of Vascular and Interventional Radiology</i> 2019<br>
+	<a href="https://doi.org/10.1016/j.jvir.2018.08.032">Paper</a>
+</td></tr>
+
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/mybpc_jmcc.png"/></a></div></td>
+	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>Clinton Wang, Jonas Schwan, Stuart Campbell<br><i>Journal of Molecular and Cellular Cardiology</i> 2019<br>
+	<a href="https://doi.org/10.1016/j.yjmcc.2015.10.007">Paper</a>
+</td></tr>
+</table>
+
+<!-- <h2>Work in Progress</h2>
+<video width="320" height="240" autoplay loop>
+  <source src="images/wip_stroke.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<video width="320" height="240" autoplay loop>
+  <source src="images/wip_stroke2.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<h2>Awards</h2>
+ -->
