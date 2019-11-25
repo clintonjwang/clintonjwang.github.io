@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am also interested in generative models, multimodal learning, and interpretability.
+I am a second-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am particularly interested in generative models, multimodal learning, and interpretability.
 
 I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a Bachelor's Degree in Biomedical Engineering at Yale, where I worked on computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -44,13 +44,13 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/euro_rad_part1.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, Clinton Wang*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
-	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/euro_rad_part2.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>Clinton Wang*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, James Duncan, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
-	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
 
 
@@ -72,6 +72,7 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
   <source src="images/wip_stroke.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
+<a href="https://github.com/clintonjwang/wmh">Code</a>
 <video width="320" height="240" autoplay loop>
   <source src="images/wip_stroke2.mp4" type="video/mp4" />
   Your browser does not support the video tag.
