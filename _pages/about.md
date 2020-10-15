@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am particularly interested in generative models, multimodal learning, and interpretability.
+I am a third-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am particularly interested in generative models, multimodal learning, and interpretability.
 
 I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a Bachelor's Degree in Biomedical Engineering at Yale, where I worked on computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -34,6 +34,13 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
 <h2>Publications</h2>
 
 <table class="pub_table">
+	
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
+  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />Clinton Wang, Natalia Rost, Polina Golland<br /><i>MICCAI</i> 2020<br />
+  <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> 
+</td></tr>
+
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/spie19_teaser.jpg"/></a></div></td>
