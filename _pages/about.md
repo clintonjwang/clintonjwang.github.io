@@ -37,8 +37,20 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
 	
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
-  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />Clinton Wang, Natalia Rost, Polina Golland<br /><i>MICCAI</i> 2020<br />
+  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />Clinton Wang, Natalia Rost, Polina Golland<br /><i>Medical Image Computing and Computer Assisted Intervention</i> 2020<br />
   <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> 
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/2021_eurorad_paula.png" /></a></div></td>
+  <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />Paula Oestmann, Clinton Wang, Lynn Savic, Charlie Hamm, Sophie Stark, Isabel Schobert, Bernhard Gebauer, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, Ramesh Batra, David Mulligan, Xuchen Zhang, James Duncan, Julius Chapiro<br /><i>European Radiology</i> 2021<br />
+  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a>
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/2020_scireports.png" /></a></div></td>
+  <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />Sophie Stark, Clinton Wang, Lynn Jeanette Savic, Brian Letzen, Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, MingDe Lin, James Duncan, Todd Schlachter & Julius Chapiro<br /><i>Scientific Reports</i> 2020<br />
+  <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a>
 </td></tr>
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
@@ -49,13 +61,13 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/euro_rad_part1.png"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/2020_eurorad_part1.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, Clinton Wang*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
 	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/euro_rad_part2.png"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/2020_eurorad_part2.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>Clinton Wang*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, James Duncan, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
 	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
