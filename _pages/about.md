@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year graduate student and [Siebel Scholar](http://www.siebelscholars.com/) at MIT CSAIL, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on analyzing medical images using computer vision and machine learning, to provide insights into diseases. I am particularly interested in generative models, multimodal learning, and interpretability.
+I am a graduate student in EECS at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include GANs, spatial priors for segmentation, and . I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
-I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a Bachelor's Degree in Biomedical Engineering at Yale, where I worked on computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
 <style type="text/css">
 	table, th, td {
@@ -86,6 +86,21 @@ I previously worked in the [Yale Radiology Research Lab](https://medicine.yale.e
 </td></tr>
 </table>
 
+
+<h2>Teaching and Mentorship</h2>
+<span style="font-size: 12pt;">
+	<b>Advances in Computer Vision (6.819/6.869)</b>, MIT<br>
+	<span style="font-size: 10pt;">
+		Teaching Assistant with Prof. <a href="https://billf.mit.edu/">Bill Freeman</a> and <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> <br>
+		Spring 2021<br><br>
+	<span style="font-size: 12pt;">
+	<b>Undergraduate Mentor (MIT Undergraduate Research Opportunities Program)</b>, MIT<br>
+	<span style="font-size: 10pt;">
+		2020<br><br>
+	</div>
+</div>
+
+<br><br>
 <!-- <h2>Work in Progress</h2>
 <video width="320" height="240" autoplay loop>
   <source src="images/wip_stroke.mp4" type="video/mp4" />
