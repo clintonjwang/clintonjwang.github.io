@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student in EECS at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include GANs, robustness, and spatial priors for segmentation. I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a graduate student at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include GANs, robust models, and spatial priors for segmentation. I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -81,7 +81,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/mybpc_jmcc.png"/></a></div></td>
-	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>Clinton Wang, Jonas Schwan, Stuart Campbell<br><i>Journal of Molecular and Cellular Cardiology</i> 2019<br>
+	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>Clinton Wang, Jonas Schwan, Stuart Campbell<br><i>Journal of Molecular and Cellular Cardiology</i> 2016<br>
 	<a href="https://doi.org/10.1016/j.yjmcc.2015.10.007">Paper</a>
 </td></tr>
 </table>
@@ -90,14 +90,14 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <h2>Teaching and Mentorship</h2>
 <span style="font-size: 12pt;">
 	<b>Advances in Computer Vision (6.819/6.869)</b>, MIT<br>
-	<span style="font-size: 10pt;">
+	<span style="font-size: 11pt;">
 		Teaching Assistant with Prof. <a href="https://billf.mit.edu/">Bill Freeman</a> and <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> <br>
 		Spring 2021<br><br>
-	<span style="font-size: 12pt;">
+<!-- 	<span style="font-size: 12pt;">
 	<b>Undergraduate Mentor</b>, MIT<br>
 	<span style="font-size: 10pt;">
 		MIT Undergraduate Research Opportunities Program<br>
-		2020<br><br>
+		2020<br><br> -->
 <!-- <br><br> -->
 <!-- <h2>Work in Progress</h2>
 <video width="320" height="240" autoplay loop>
