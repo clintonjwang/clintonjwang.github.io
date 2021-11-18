@@ -87,7 +87,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </table>
 
 
-<h2>Teaching and Mentorship</h2>
+<h2>Teaching</h2>
 <span style="font-size: 12pt;">
 	<b>Advances in Computer Vision (6.819/6.869)</b>, MIT<br>
 	<span style="font-size: 11pt;">
