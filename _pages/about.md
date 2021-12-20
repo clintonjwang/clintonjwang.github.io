@@ -44,13 +44,13 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/2021_eurorad_paula.png" /></a></div></td>
   <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />Paula Oestmann, <u>Clinton Wang</u>, Lynn Savic, Charlie Hamm, Sophie Stark, Isabel Schobert, Bernhard Gebauer, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, Ramesh Batra, David Mulligan, Xuchen Zhang, James Duncan, Julius Chapiro<br /><i>European Radiology</i> 2021<br />
-  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a>
+  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/2020_scireports.png" /></a></div></td>
   <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />Sophie Stark, <u>Clinton Wang</u>, Lynn Jeanette Savic, Brian Letzen, Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, MingDe Lin, James Duncan, Todd Schlachter & Julius Chapiro<br /><i>Scientific Reports</i> 2020<br />
-  <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a>
+  <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a> | <a href="https://github.com/clintonjwang/lipiodol">Code</a>
 </td></tr>
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
@@ -61,15 +61,15 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/2020_eurorad_part1.png"/></a></div></td>
-	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
-	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
-</td></tr>
-
-<tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/2020_eurorad_part2.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br><u>Clinton Wang</u>*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, James Duncan, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
 	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
+</td></tr>
+
+<tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/2020_eurorad_part1.png"/></a></div></td>
+	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
+	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
 
 
