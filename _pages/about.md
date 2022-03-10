@@ -43,7 +43,8 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
   <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
 		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>, Natalia Rost,
+  	<u>Clinton Wang</u>,
+  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
   	</div>
@@ -64,7 +65,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://people.csail.mit.edu/xavierpuig/">Xavier Puig</a>,
 		<a href="https://cpaxton.github.io/about/">Chris Paxton</a>,
 		<a href="https://yilundu.github.io/">Yilun Du</a>,
-		<a href="https://clintonjwang.github.io/">Clinton Wang</a>,
+		<a href="https://clintonjwang.github.io/"><u>Clinton Wang</u></a>,
 		<a href="https://scholar.google.com/citations?user=sljtWIUAAAAJ&hl=en">Linxi Fan</a>,
 		<a href="https://taochenshh.github.io">Tao Chen</a>,
 		<a href="https://ai.stanford.edu/~dahuang/">De-An Huang</a>,
@@ -87,7 +88,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Charlie Hamm, Sophie Stark, Isabel Schobert,
 	  <a href="https://radiologie.charite.de/metas/person/person/address_detail/gebauer-6/">Bernhard Gebauer</a>,
 		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		MingDe Lin,
+		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
 		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
 		Ramesh Batra, David Mulligan, Xuchen Zhang,
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
@@ -102,7 +103,10 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />
 		<div class='paper_metadata'>
 	  Sophie Stark, <u>Clinton Wang</u>,
-	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Brian Letzen, Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, MingDe Lin,
+	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>,
+	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
+	  Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, 
+		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
 		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
 		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a><br />
@@ -116,9 +120,10 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/spie19_teaser.jpg"/></a></div></td>
 	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>
 		<div class='paper_metadata'>
-		<u>Clinton Wang</u>, Charlie Hamm, Brian Letzen,
+		<u>Clinton Wang</u>, Charlie Hamm,
+	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a><br>
-		<i>SPIE Medical Imaging Conference</i> 2019<br>
+		<a href="https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1"><i>SPIE Medical Imaging Conference</i></a> 2019<br>
 		</div>
 	<a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
@@ -130,10 +135,11 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<u>Clinton Wang</u>*, Charlie Hamm*,
 	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Marc Ferrante, Isabel Schobert,
 		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		MingDe Lin, Jeffrey Weinreb,
+		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
+		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
 		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>,
-		Brian Letzen<br>
+	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a><br>
 	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2019<br>
 		</div>
 	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
@@ -145,11 +151,11 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<div class='paper_metadata'>
 		Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert,
 		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		MingDe Lin, 
+		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>, 
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>, 
-		Jeffrey Weinreb,
+		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
 		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>,
-		Brian Letzen<br>
+	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a><br>
 	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2019<br>
 		</div>
 	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
@@ -160,8 +166,10 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/jvir_review_teaser.jpg"/></a></div></td>
 	<td class="pub_td2"><b>The Role of Artificial Intelligence in Interventional Oncology: A Primer</b><br>
 		<div class='paper_metadata'>
-		Brian Letzen, <u>Clinton Wang</u>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a><br><i>Journal of Vascular and Interventional Radiology</i> 2019<br>
+	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
+	  <u>Clinton Wang</u>,
+		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>
+		<br><i>Journal of Vascular and Interventional Radiology</i> 2019<br>
 		</div>
 	<a href="https://doi.org/10.1016/j.jvir.2018.08.032">Paper</a>
 </td></tr>
@@ -170,7 +178,9 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/mybpc_jmcc.png"/></a></div></td>
 	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>
 		<div class='paper_metadata'>
-		<u>Clinton Wang</u>, Jonas Schwan, Stuart Campbell<br><i>Journal of Molecular and Cellular Cardiology</i> 2016<br>
+		<u>Clinton Wang</u>, Jonas Schwan,
+		<a href="https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell">Stuart Campbell</a>
+		<br><i>Journal of Molecular and Cellular Cardiology</i> 2016<br>
 		</div>
 	<a href="https://doi.org/10.1016/j.yjmcc.2015.10.007">Paper</a>
 </td></tr>
