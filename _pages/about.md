@@ -37,38 +37,61 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
-  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br /><u>Clinton Wang</u>, Natalia Rost, Polina Golland<br /><i>Medical Image Computing and Computer Assisted Intervention</i> 2020<br />
+  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
+  	<u>Clinton Wang</u>, Natalia Rost,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<i>Medical Image Computing and Computer Assisted Intervention</i> 2020<br />
+  <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> 
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
+  <td class="pub_td2"><b>Pre-Trained Language Models for Interactive Decision-Making</b><br />
+  	<a href="https://people.csail.mit.edu/lishuang/">Shuang Li</a>,
+  	Xavier Puig, Chris Paxton, Yilun Du, <u>Clinton Wang</u>,
+  	Linxi Fan, Tao Chen, De-An Huang, Ekin Akyürek, Anima Anandkumar, Jacob Andreas, Igor Mordatch, Antonio Torralba, and Yuke Zhu<br />
+  <i>Medical Image Computing and Computer Assisted Intervention</i> 2020<br />
   <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> 
 </td></tr>
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/2021_eurorad_paula.png" /></a></div></td>
-  <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />Paula Oestmann, <u>Clinton Wang</u>, Lynn Savic, Charlie Hamm, Sophie Stark, Isabel Schobert, Bernhard Gebauer, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, Ramesh Batra, David Mulligan, Xuchen Zhang, James Duncan, Julius Chapiro<br /><i>European Radiology</i> 2021<br />
+  <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />Paula Oestmann, <u>Clinton Wang</u>, Lynn Savic, Charlie Hamm, Sophie Stark, Isabel Schobert, Bernhard Gebauer, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, Ramesh Batra, David Mulligan, Xuchen Zhang, James Duncan, Julius Chapiro<br />
+  <i>European Radiology</i> 2021<br />
   <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/2020_scireports.png" /></a></div></td>
-  <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />Sophie Stark, <u>Clinton Wang</u>, Lynn Jeanette Savic, Brian Letzen, Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, MingDe Lin, James Duncan, Todd Schlachter & Julius Chapiro<br /><i>Scientific Reports</i> 2020<br />
+  <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />Sophie Stark, <u>Clinton Wang</u>, Lynn Jeanette Savic, Brian Letzen, Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, MingDe Lin,
+	<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
+	Todd Schlachter & Julius Chapiro<br />
+  <i>Scientific Reports</i> 2020<br />
   <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a> | <a href="https://github.com/clintonjwang/lipiodol">Code</a>
 </td></tr>
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/spie19_teaser.jpg"/></a></div></td>
-	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br><u>Clinton Wang</u>, Charlie Hamm, Brian Letzen, James Duncan<br><i>SPIE Medical Imaging Conference</i> 2019<br>
+	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br><u>Clinton Wang</u>, Charlie Hamm, Brian Letzen,
+	<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a><br>
+	<i>SPIE Medical Imaging Conference</i> 2019<br>
 	<a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/2020_eurorad_part2.png"/></a></div></td>
-	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br><u>Clinton Wang</u>*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb, James Duncan, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
+	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br><u>Clinton Wang</u>*, Charlie Hamm*, Lynn Savic, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, Jeffrey Weinreb,
+	<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
+	Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
 	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/2020_eurorad_part1.png"/></a></div></td>
-	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, James Duncan, Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
+	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert, Todd Schlachter, MingDe Lin, 
+	<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>, 
+	Jeffrey Weinreb, Julius Chapiro, Brian Letzen<br><i>European Radiology</i> 2019<br>
 	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
 
