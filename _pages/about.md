@@ -38,7 +38,32 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <h2>Publications</h2>
 
 <table class="pub_table">
-	
+ 
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/2022_inrnet.png" /></a></div></td>
+  <td class="pub_td2"><b>Deep Learning on Implicit Neural Datasets</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<i>arXiv preprint</i> 2022<br />
+  	</div>
+  <a href="http://arxiv.org/abs/2206.01178">Paper</a>
+</td></tr>
+
+<!-- 
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/tmi22_teaser.png" /></a></div></td>
+  <td class="pub_td2"><b>High Fidelity Medical Image-to-Image Translation with Spatial-Intensity Transforms</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<i>arXiv preprint</i> 2022<br />
+  	</div>
+  <a href="">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
+</td></tr>
+-->
+
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
   <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
@@ -48,7 +73,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
   	</div>
-  <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> 
+  <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 
 <tr>

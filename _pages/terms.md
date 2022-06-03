@@ -1,39 +1,20 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
-modified: 2016-06-06
+permalink: /spatial-intensity-transforms/
+title: "High Fidelity Medical Image-to-Image Translation with Spatial-Intensity Transforms"
 ---
 
 {% include base_path %}
 {% include toc %}
 
-## Privacy Policy
+# High Fidelity Medical Image-to-Image Translation with Spatial-Intensity Transforms
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+<img src="images/sit_teaser.png" />
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+### Abstract
 
-### Log Files
+Image-to-image translation has seen major advances in computer vision, but can be difficult to apply to medical images, where imaging artifacts and data scarcity compromise the performance of conditional generative adversarial networks. We develop the spatial-intensity transform (SIT) to improve output image quality while closely matching the target domain. Our SIT constrains the generator to a smooth spatial transform (diffeomorphism) composed with sparse intensity changes. SIT is a lightweight, modular network component that is effective on a variety of model architectures and training schemes. Relative to several unconstrained baselines, this technique significantly improves image quality. Our models generalize robustly to different scanners without retraining. Additionally, SIT provides a disentangled view of anatomical and textural changes for each translation, making it easier to interpret the model's predictions in terms of physiological phenomena. We demonstrate SIT on two tasks: predicting longitudinal brain MRIs in patients with various stages of neurodegeneration, and visualizing changes in age and stroke severity in clinical brain scans of stroke patients. On the first task, our model accurately forecasts brain aging trajectories without supervised training on paired scans. On the second task, it captures associations between ventricle expansion and aging, as well as between white matter hyperintensities and stroke severity. As conditional generative models become increasingly versatile tools for visualization and forecasting, our approach demonstrates a simple and powerful technique for improving robustness, which is critical for translation to clinical settings.
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+### Paper
 
-All of this information is not linked to anything that is personally identifiable.
-
-### Cookies and Web Beacons
-
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
-
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
-
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+[Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
