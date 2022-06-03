@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include GANs, robust models, and spatial priors for segmentation. I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a graduate student at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include implicit neural representations and robust deep learning. I also build models for colonoscopy video analysis at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -40,7 +40,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <table class="pub_table">
  
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/2022_inrnet.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/2022_inrnet.png" /></a></div></td>
   <td class="pub_td2"><b>Deep Learning on Implicit Neural Datasets</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
