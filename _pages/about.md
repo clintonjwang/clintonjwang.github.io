@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical vision, with topics that include implicit neural representations and robust or interpretable deep learning. I also built models for camera tracking in colonoscopy at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical vision, with topics that include implicit neural representations and robust or interpretable deep learning. I also built models for trajectory estimation in colonoscopies at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -228,25 +228,26 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <h2>Teaching</h2>
 <span style="font-size: 12pt;">
-	<b>Advances in Computer Vision (6.819/6.869)</b>, MIT<br>
-	<span style="font-size: 11pt;">
-		Teaching Assistant with Prof. <a href="https://billf.mit.edu/">Bill Freeman</a> and <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> <br>
-		Spring 2021<br><br>
-<!-- 	<span style="font-size: 12pt;">
-	<b>Undergraduate Mentor</b>, MIT<br>
-	<span style="font-size: 10pt;">
-		MIT Undergraduate Research Opportunities Program<br>
-		2020<br><br> -->
-<!-- <br><br> -->
-<!-- <h2>Work in Progress</h2>
-<video width="320" height="240" autoplay loop>
-  <source src="images/wip_stroke.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-<a href="https://github.com/clintonjwang/wmh">Code</a>
-<video width="320" height="240" autoplay loop>
-  <source src="images/wip_stroke2.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-<h2>Awards</h2>
- -->
+	Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
+	<span style="font-size: 11pt;margin-left: 20px">
+		<t>Teaching Assistant with Prof. <a href="https://billf.mit.edu/">Bill Freeman</a> and <a href="http://web.mit.edu/phillipi/">Phillip Isola</a><br>
+	<span style="font-size: 12pt;">
+	Undergraduate Mentor, MIT Undergraduate Research Opportunities Program, 2020<br>
+
+<h2>Academic Service</h2>
+<span style="font-size: 12pt;">
+	Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS) 2022<br>
+	Reviewer, Conference on Neural Information Processing Systems (NeurIPS) 2022<br>
+	Reviewer, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021-2022<br>
+
+<h2>Selected Awards</h2>
+<span style="font-size: 12pt;">
+	Takeda Fellowship 2021-2022<br>
+	Siebel Foundation Scholar 2020<br>
+	Yale Department of Biomedical Engineering Prize, 2015<br>
+	Tau Beta Pi Engineering Honor Society, 2015<br>
+	
+<h2>Invited Talks</h2>
+<span style="font-size: 12pt;">
+	MIT-Takeda Presentation Series 2022<br>
+	MIT MGB AI Cures Conference 2022<br>
