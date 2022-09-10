@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate student at MIT CSAIL studying medical vision, advised by [Polina Golland](https://people.csail.mit.edu/polina/). My interests include implicit neural representations and robust deep learning. I also build models for colonoscopy video analysis at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical vision, with topics that include implicit neural representations and robust or interpretable deep learning. I also built models for camera tracking in colonoscopy at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -63,6 +63,20 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   <a href="">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 -->
+
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2208.02895"><img class="teaser_img" src="images/placenta_teaser.png" /></a></div></td>
+  <td class="pub_td2"><b>Automatic Segmentation of the Placenta in BOLD MRI Time Series</b><br />
+		<div class='paper_metadata'>
+  	<a href="http://people.csail.mit.edu/abulnaga/">Mazdak Abulnaga</a>,
+  	Sean Young, Katherine Hobgood, Eileen Pan, <u>Clinton Wang</u>,
+  	<a href="https://www.childrenshospital.org/directory/patricia-ellen-grant">Ellen Grant</a>,
+  	<a href="https://www.childrenshospital.org/research/researchers/esra-abaci-turk">Esra Abaci Turk</a>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="https://pippiworkshop.github.io/"><i>Medical Image Computing and Computer Assisted Intervention PIPPI Workshop</i></a> 2022<br />
+  	</div>
+  <a href="http://arxiv.org/abs/2208.02895">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
+</td></tr>
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
