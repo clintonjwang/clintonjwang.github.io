@@ -69,7 +69,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   <td class="pub_td2"><b>Automatic Segmentation of the Placenta in BOLD MRI Time Series</b><br />
 		<div class='paper_metadata'>
   	<a href="http://people.csail.mit.edu/abulnaga/">Mazdak Abulnaga</a>,
-  	Sean Young, Katherine Hobgood, Eileen Pan, <u>Clinton Wang</u>,
+  	<a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/194239">Sean Young</a>, Katherine Hobgood, Eileen Pan, <u>Clinton Wang</u>,
   	<a href="https://www.childrenshospital.org/directory/patricia-ellen-grant">Ellen Grant</a>,
   	<a href="https://www.childrenshospital.org/research/researchers/esra-abaci-turk">Esra Abaci Turk</a>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
@@ -104,7 +104,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://people.csail.mit.edu/xavierpuig/">Xavier Puig</a>,
 		<a href="https://cpaxton.github.io/about/">Chris Paxton</a>,
 		<a href="https://yilundu.github.io/">Yilun Du</a>,
-		<a href="https://clintonjwang.github.io/"><u>Clinton Wang</u></a>,
+		<u>Clinton Wang</u>,
 		<a href="https://scholar.google.com/citations?user=sljtWIUAAAAJ&hl=en">Linxi Fan</a>,
 		<a href="https://taochenshh.github.io">Tao Chen</a>,
 		<a href="https://ai.stanford.edu/~dahuang/">De-An Huang</a>,
@@ -114,7 +114,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>, 
 		<a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>,
 		<a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a><br />
-	  <i>arXiv preprint</i> 2022<br />
+	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i></a> 2022<br />
 		</div>
   <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
 </td></tr>
