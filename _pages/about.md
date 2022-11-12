@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical vision, with topics that include implicit neural representations and robust or interpretable deep learning. I also built models for trajectory estimation in colonoscopies at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (acute ischemic stroke, neurodegenerative disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation. I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
 
-I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I also built models for trajectory estimation in colonoscopies at [Iterative Scopes](https://www.iterativescopes.com/). I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
 <style type="text/css">
   .paper_metadata a {
@@ -47,7 +47,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
   	</div>
-  <a href="http://arxiv.org/abs/2206.01178">Paper</a>
+  <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
 
 <!-- 
