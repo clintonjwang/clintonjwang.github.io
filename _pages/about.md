@@ -116,7 +116,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a><br />
 	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i></a> 2022<br />
 		</div>
-  <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
+  <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
 </td></tr>
 
 <tr>

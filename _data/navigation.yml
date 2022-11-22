@@ -2,6 +2,7 @@
 main:
   - title: "CV"
     url: /files/CV.pdf
-    
-  - title: "DI-Net"
+  - title: "Neural Fields"
     url: /di-net
+  - title: "Counterfactual Visualization"
+    url: /counterfactuals
