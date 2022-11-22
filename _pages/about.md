@@ -38,16 +38,16 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <h2>Publications</h2>
 
 <table class="pub_table">
- 
+
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/2022_inrnet.png" /></a></div></td>
-  <td class="pub_td2"><b>Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets</b><br />
+  <td class="pub_td2"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
   	</div>
-  <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
+  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
 
 <!-- 

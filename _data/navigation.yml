@@ -1,8 +1,7 @@
 # main links links
 main:
-  # - title: "Publications"
-  #   url: /publications/
-
   - title: "CV"
-    url: /files/CV.pdf #http://clintonjwang.github.io
+    url: /files/CV.pdf
     
+  - title: "DI-Net"
+    url: /di-net
