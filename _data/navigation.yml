@@ -4,5 +4,7 @@ main:
     url: /files/CV.pdf
   - title: "Neural Fields"
     url: /di-net
-  - title: "Counterfactual Visualization"
+  - title: "Counterfactual Images"
     url: /counterfactuals
+  - title: "Interpretability"
+    url: /interpretability

@@ -87,7 +87,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
   	</div>
-  <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
+  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 
 <tr>
@@ -164,7 +164,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a><br>
 		<a href="https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1"><i>SPIE Medical Imaging Conference</i></a> 2019<br>
 		</div>
-	<a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
 
 <tr>
@@ -181,7 +181,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a><br>
 	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2019<br>
 		</div>
-	<a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
+	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
 
 <tr>

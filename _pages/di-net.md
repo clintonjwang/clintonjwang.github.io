@@ -14,7 +14,7 @@ DI-Nets manifest desirable theoretical properties such as universal approximatio
 
 ### Bibtex
 
-<pre>
+```
 @misc{wang2022dinet,
       title={Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets}, 
       author={Clinton J. Wang and Polina Golland},
@@ -23,4 +23,4 @@ DI-Nets manifest desirable theoretical properties such as universal approximatio
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
-</pre>
+```
