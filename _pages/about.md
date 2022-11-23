@@ -40,7 +40,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <table class="pub_table">
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/2022_inrnet.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_inrnet.png" /></a></div></td>
   <td class="pub_td2"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
@@ -52,7 +52,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <!-- 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/tmi22_teaser.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/teasers/tmi22_teaser.png" /></a></div></td>
   <td class="pub_td2"><b>High Fidelity Medical Image-to-Image Translation with Spatial-Intensity Transforms</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
@@ -65,7 +65,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 -->
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2208.02895"><img class="teaser_img" src="images/placenta_teaser.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2208.02895"><img class="teaser_img" src="images/teasers/placenta_teaser.png" /></a></div></td>
   <td class="pub_td2"><b>Automatic Segmentation of the Placenta in BOLD MRI Time Series</b><br />
 		<div class='paper_metadata'>
   	<a href="http://people.csail.mit.edu/abulnaga/">Mazdak Abulnaga</a>,
@@ -79,7 +79,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/miccai20_teaser.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
   <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
@@ -120,7 +120,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/2021_eurorad_paula.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/teasers/2021_eurorad_paula.png" /></a></div></td>
   <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />
 		<div class='paper_metadata'>
 	  Paula Oestmann, <u>Clinton Wang</u>,
@@ -138,7 +138,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/2020_scireports.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/teasers/2020_scireports.png" /></a></div></td>
   <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />
 		<div class='paper_metadata'>
 	  Sophie Stark, <u>Clinton Wang</u>,
@@ -156,7 +156,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/spie19_teaser.jpg"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/teasers/spie19_teaser.jpg"/></a></div></td>
 	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>
 		<div class='paper_metadata'>
 		<u>Clinton Wang</u>, Charlie Hamm,
@@ -168,7 +168,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/2020_eurorad_part2.png"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/teasers/2020_eurorad_part2.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>
 		<div class='paper_metadata'>
 		<u>Clinton Wang</u>*, Charlie Hamm*,
@@ -185,7 +185,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/2020_eurorad_part1.png"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/teasers/2020_eurorad_part1.png"/></a></div></td>
 	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>
 		<div class='paper_metadata'>
 		Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert,
@@ -202,7 +202,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/jvir_review_teaser.jpg"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/teasers/jvir_review_teaser.jpg"/></a></div></td>
 	<td class="pub_td2"><b>The Role of Artificial Intelligence in Interventional Oncology: A Primer</b><br>
 		<div class='paper_metadata'>
 	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
@@ -214,7 +214,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/mybpc_jmcc.png"/></a></div></td>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/teasers/mybpc_jmcc.png"/></a></div></td>
 	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>
 		<div class='paper_metadata'>
 		<u>Clinton Wang</u>, Jonas Schwan,
