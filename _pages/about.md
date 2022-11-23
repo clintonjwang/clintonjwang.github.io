@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (acute ischemic stroke, neurodegenerative disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation. I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (acute ischemic stroke, neurodegenerative disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation.
 
-I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), building interpretable neural networks for liver cancer diagnosis. I also built models for trajectory estimation in colonoscopies at [Iterative Scopes](https://www.iterativescopes.com/). I received a B.S. in Biomedical Engineering at Yale, where I developed computational models of heart muscle contraction under [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and interned at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/). I received a B.S. in Biomedical Engineering at Yale, where I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
 <style type="text/css">
   .paper_metadata a {
@@ -40,8 +40,8 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <table class="pub_table">
 
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_inrnet.png" /></a></div></td>
-  <td class="pub_td2"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
+  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
+  <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
@@ -76,18 +76,6 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://pippiworkshop.github.io/"><i>Medical Image Computing and Computer Assisted Intervention PIPPI Workshop</i></a> 2022<br />
   	</div>
   <a href="http://arxiv.org/abs/2208.02895">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
-</td></tr>
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
-  <td class="pub_td2"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
-		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>,
-  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
-  	</div>
-  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 
 <tr>
@@ -138,6 +126,18 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 
 <tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
+  <td class="pub_td2" bgcolor="FFFFD9"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
+  	</div>
+  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
+</td></tr>
+
+<tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/teasers/2020_scireports.png" /></a></div></td>
   <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />
 		<div class='paper_metadata'>
@@ -157,7 +157,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/teasers/spie19_teaser.jpg"/></a></div></td>
-	<td class="pub_td2"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>
+	<td class="pub_td2" bgcolor="FFFFD9"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>
 		<div class='paper_metadata'>
 		<u>Clinton Wang</u>, Charlie Hamm,
 	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
@@ -169,7 +169,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/teasers/2020_eurorad_part2.png"/></a></div></td>
-	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>
+	<td class="pub_td2" bgcolor="FFFFD9"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>
 		<div class='paper_metadata'>
 		<u>Clinton Wang</u>*, Charlie Hamm*,
 	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Marc Ferrante, Isabel Schobert,
