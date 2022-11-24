@@ -5,7 +5,13 @@ author_profile: false
 sidebar: false
 ---
 
-[Paper](http://arxiv.org/abs/2206.01178) \| [Code](https://github.com/clintonjwang/di-net)
+<style type="text/css">
+	th, td {
+		font-size: 24px;
+	}
+</style>
+
+[Paper](http://arxiv.org/abs/2206.01178) \| [Code](https://github.com/clintonjwang/di-net) \| [Poster](images/di-net/poster.png)
 
 <video width="480" height="270" controls>
   <source src="files/neurreps_video.mp4" type="video/mp4">
