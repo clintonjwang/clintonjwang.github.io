@@ -7,16 +7,17 @@ sidebar: false
 
 <style type="text/css">
 	th, td {
-		font-size: 24px;
+		font-size: 18px;
 	}
 </style>
 
 [Paper](http://arxiv.org/abs/2206.01178) \| [Code](https://github.com/clintonjwang/di-net) \| [Poster](images/di-net/poster.png)
 
-<video width="480" height="270" controls>
+<!-- <video width="480" height="270" controls>
   <source src="files/neurreps_video.mp4" type="video/mp4">
 Your browser does not support the video tag.
-</video>
+</video> -->
+<iframe width="420" height="315" src="https://www.youtube.com/embed/NlcOBLxbekc"></iframe>
 
 Neural fields (NFs) like [NeRF](https://www.matthewtancik.com/nerf) and [SIREN](https://www.vincentsitzmann.com/siren/) are powerful representations of continuous data, but there's a need for deep learning architectures that perform inference on such data without being sensitive to how the neural field is sampled, a property called **discretization invariance**.
 
