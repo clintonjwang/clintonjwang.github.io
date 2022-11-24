@@ -5,6 +5,12 @@ author_profile: false
 sidebar: false
 ---
 
+<style type="text/css">
+	th, td {
+		font-size: 48px;
+	}
+</style>
+
 [Paper](https://doi.org/10.1007/978-3-030-59713-9_72) \| [Code](https://github.com/clintonjwang/spatial-intensity-transforms)
 
 Counterfactual images represent what an image would have looked like if it had different specified characteristics. They find use in a wide range of tasks in medical imaging:

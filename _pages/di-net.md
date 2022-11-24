@@ -7,7 +7,7 @@ sidebar: false
 
 [Paper](http://arxiv.org/abs/2206.01178) \| [Code](https://github.com/clintonjwang/di-net)
 
-<video width="480" height="360" controls>
+<video width="480" height="270" controls>
   <source src="files/neurreps_video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>

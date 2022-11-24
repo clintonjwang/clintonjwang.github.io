@@ -13,12 +13,12 @@ I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csa
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and interned at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/). I received a B.S. in Biomedical Engineering at Yale, where I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
 <style type="text/css">
-  .paper_metadata a {
-  	text-decoration: none!important;
-  	color: #494e52;
-  }
+	.paper_metadata a {
+		text-decoration: none!important;
+		color: #494e52;
+	}
 	table, th, td {
-	  border: 0px solid black;
+		border: 0px solid black;
 	}
 	table.pub_table {
 		width: 100%;
@@ -49,6 +49,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	</div>
   <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
+{% include table_space %}
 
 <!-- 
 <tr>
@@ -62,6 +63,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	</div>
   <a href="">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
+{% include table_space %}
 -->
 
 <tr>
@@ -77,11 +79,13 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	</div>
   <a href="http://arxiv.org/abs/2208.02895">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
 </td></tr>
+<tr><td class="pub_td1"></td><td class="pub_td2"></td></tr>
+{% include table_space %}
 
 <tr>
   <td class="pub_td1">
 		<a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">
-			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="" style="border:1px solid black">
+			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="" style="border:0px solid black">
   		<source src="files/21-virtualhome-language.mp4" type="video/mp4">
 			</video>
 		</a>
@@ -106,6 +110,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
   <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
 </td></tr>
+{% include table_space %}
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/teasers/2021_eurorad_paula.png" /></a></div></td>
@@ -124,6 +129,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
   <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
+{% include table_space %}
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
@@ -136,6 +142,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	</div>
   <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
+{% include table_space %}
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/teasers/2020_scireports.png" /></a></div></td>
@@ -153,6 +160,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
   <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a> | <a href="https://github.com/clintonjwang/lipiodol">Code</a>
 </td></tr>
+{% include table_space %}
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
@@ -166,6 +174,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
 	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
+{% include table_space %}
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/teasers/2020_eurorad_part2.png"/></a></div></td>
@@ -183,6 +192,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
 	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
+{% include table_space %}
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/teasers/2020_eurorad_part1.png"/></a></div></td>
@@ -199,7 +209,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
 	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
-
+{% include table_space %}
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/teasers/jvir_review_teaser.jpg"/></a></div></td>
@@ -212,6 +222,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		</div>
 	<a href="https://doi.org/10.1016/j.jvir.2018.08.032">Paper</a>
 </td></tr>
+{% include table_space %}
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/teasers/mybpc_jmcc.png"/></a></div></td>
@@ -236,9 +247,10 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
 <h2>Academic Service</h2>
 <span style="font-size: 12pt;">
-	Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS) 2022<br>
-	Reviewer, Conference on Neural Information Processing Systems (NeurIPS) 2022<br>
-	Reviewer, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2021-2022<br>
+	Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)<br>
+	Reviewer, Medical Image Analysis (MedIA)<br>
+	Reviewer, Conference on Neural Information Processing Systems (NeurIPS)<br>
+	Reviewer, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)<br>
 
 <h2>Selected Awards</h2>
 <span style="font-size: 12pt;">
