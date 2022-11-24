@@ -7,6 +7,11 @@ sidebar: false
 
 [Paper](http://arxiv.org/abs/2206.01178) \| [Code](https://github.com/clintonjwang/di-net)
 
+<video width="480" height="360" controls>
+  <source src="files/neurreps_video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 Neural fields (NFs) like [NeRF](https://www.matthewtancik.com/nerf) and [SIREN](https://www.vincentsitzmann.com/siren/) are powerful representations of continuous data, but there's a need for deep learning architectures that perform inference on such data without being sensitive to how the neural field is sampled, a property called **discretization invariance**.
 
 We propose **DI-Net**, a general framework for discretization invariant learning on neural fields. DI-Net layers map NFs to NFs using the quasi-Monte Carlo method: they sample the input along a low discrepancy sequence and perform numerical integration with respect to some parametric map.
