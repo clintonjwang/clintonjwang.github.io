@@ -32,15 +32,19 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	td.pub_td2 {
 		width: 67%;
 	}
+	span.subbullet {
+		font-size: 11pt;
+		margin-left: 20px
+	}
+	oral {
+		font-weight: bold;
+		color: red;
+	}
 </style>
 
-<body>
-<div class='section_div' id="papers">
-
-<h2>Publications</h2>
+## Publications
 
 <table class="pub_table">
-
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
@@ -49,7 +53,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
   	</div>
-  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
+  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://www.youtube.com/watch?v=NlcOBLxbekc">Video</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
 {% include table-space.html %}
 
@@ -87,7 +91,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <tr>
   <td class="pub_td1">
 		<a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">
-			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="" style="border:0px solid black">
+			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
   		<source src="files/21-virtualhome-language.mp4" type="video/mp4">
 			</video>
 		</a>
@@ -108,7 +112,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>, 
 		<a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>,
 		<a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a><br />
-	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i></a> 2022<br />
+	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i> 2022</a> <oral>Oral</oral><br />
 		</div>
   <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
 </td></tr>
@@ -140,9 +144,9 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<u>Clinton Wang</u>,
   	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
+  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020 <oral>Oral</oral><br />
   	</div>
-  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://drive.google.com/file/d/1Ckaja6Xm8o25zjhfT6DLkXJAgxAEMFEF/view?usp=sharing">Talk</a> | <a href="files/miccai20_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
+  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://www.youtube.com/watch?v=n8nPG7xlL-0">Video</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 {% include table-space.html %}
 
@@ -172,9 +176,9 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<u>Clinton Wang</u>, Charlie Hamm,
 	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
 		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a><br>
-		<a href="https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1"><i>SPIE Medical Imaging Conference</i></a> 2019<br>
+		<a href="https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1"><i>SPIE Medical Imaging Conference</i></a> 2019 <oral>Oral</oral><br>
 		</div>
-	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="files/spie19_talk.pptx">Slides</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
 {% include table-space.html %}
 
@@ -239,29 +243,28 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </table>
 
 
-<h2>Teaching</h2>
-<span style="font-size: 12pt;">
-	Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
-	<span style="font-size: 11pt;margin-left: 20px">
-		<t>Teaching Assistant with Prof. <a href="https://billf.mit.edu/">Bill Freeman</a> and <a href="http://web.mit.edu/phillipi/">Phillip Isola</a><br>
-	<span style="font-size: 12pt;">
-	Undergraduate Mentor, MIT Undergraduate Research Opportunities Program, 2020<br>
+## Teaching
+* Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
+	<span class="subbullet">
+		Teaching Assistant with Prof. Bill Freeman and Phillip Isola
+* Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
 
-<h2>Academic Service</h2>
-<span style="font-size: 12pt;">
-	Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)<br>
-	Reviewer, Medical Image Analysis (MedIA)<br>
-	Reviewer, Conference on Neural Information Processing Systems (NeurIPS)<br>
-	Reviewer, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)<br>
+## Academic Service
+* Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)
+* Reviewer, Medical Image Analysis (MedIA)
+* Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
+* Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
 
-<h2>Selected Awards</h2>
-<span style="font-size: 12pt;">
-	Takeda Fellowship 2021-2022<br>
-	Siebel Foundation Scholar 2020<br>
-	Yale Department of Biomedical Engineering Prize, 2015<br>
-	Tau Beta Pi Engineering Honor Society, 2015<br>
-	
-<h2>Invited Talks</h2>
-<span style="font-size: 12pt;">
-	MIT-Takeda Presentation Series 2022<br>
-	MIT MGB AI Cures Conference 2022<br>
+## Selected Awards
+* Takeda Fellowship, 2021-2022
+* Siebel Foundation Scholar, 2020
+* Yale Department of Biomedical Engineering Prize, 2015
+* Tau Beta Pi Engineering Honor Society, 2015
+
+## Invited Talks
+* MIT MGB AI Cures Conference 2022
+	<span class="subbullet">
+		Identifying radiological biomarkers with generative models
+* MIT-Takeda Presentation Series 2022
+	<span class="subbullet">
+		Robust counterfactual visualization with spatial-intensity transforms
