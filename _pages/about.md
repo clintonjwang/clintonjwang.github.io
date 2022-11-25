@@ -133,7 +133,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a><br />
 	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2021<br />
 		</div>
-  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
+  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a>
 </td></tr>
 {% include table-space.html %}
 
