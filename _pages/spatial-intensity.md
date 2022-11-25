@@ -1,6 +1,6 @@
 ---
 permalink: /counterfactuals
-title: "Counterfactual Medical Image Generation"
+title: "Robust Counterfactual Medical Image Generation"
 author_profile: false
 sidebar: false
 ---
