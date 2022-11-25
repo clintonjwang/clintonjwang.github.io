@@ -246,7 +246,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 ## Teaching
 * Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
 	<span class="subbullet">
-		Teaching Assistant with Prof. Bill Freeman and Phillip Isola
+	Teaching Assistant with Prof. Bill Freeman and Phillip Isola
 * Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
 
 ## Academic Service
@@ -262,9 +262,9 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 * Tau Beta Pi Engineering Honor Society, 2015
 
 ## Invited Talks
-* MIT MGB AI Cures Conference 2022
+* MIT MGB AI Cures Conference 2022<br>
 	<span class="subbullet">
-		Identifying radiological biomarkers with generative models
-* MIT-Takeda Presentation Series 2022
+	Identifying radiological biomarkers with generative models
+* MIT-Takeda Presentation Series 2022<br>
 	<span class="subbullet">
-		Robust counterfactual visualization with spatial-intensity transforms
+	Robust counterfactual visualization with spatial-intensity transforms
