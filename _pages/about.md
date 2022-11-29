@@ -51,6 +51,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Conference Workshop</i></a> 2022 <oral>Oral</oral><br />
   	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
   	</div>
   <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://www.youtube.com/watch?v=NlcOBLxbekc">Video</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
@@ -145,6 +146,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020 <oral>Oral</oral><br />
+  	<a href="https://www.mitmgb.ai/posters-list/"><i>MIT MGB AI Cures Conference</i></a> 2022 <br />
   	</div>
   <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://www.youtube.com/watch?v=n8nPG7xlL-0">Video</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
@@ -242,6 +244,11 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 </td></tr>
 </table>
 
+## Selected Awards
+* Takeda Fellowship, 2021-2022
+* Siebel Foundation Scholar, 2020
+* Yale Department of Biomedical Engineering Prize, 2015
+* Tau Beta Pi Engineering Honor Society, 2015
 
 ## Teaching
 * Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
@@ -255,16 +262,10 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 * Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
 * Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
 
-## Selected Awards
-* Takeda Fellowship, 2021-2022
-* Siebel Foundation Scholar, 2020
-* Yale Department of Biomedical Engineering Prize, 2015
-* Tau Beta Pi Engineering Honor Society, 2015
-
 ## Invited Talks
-* MIT MGB AI Cures Conference 2022<br>
+* Boston Medical Imaging Workshop 2022<br>
 	<span class="subbullet">
-	Identifying radiological biomarkers with generative models
+	Robust counterfactual image generation with spatial-intensity transforms
 * MIT-Takeda Presentation Series 2022<br>
 	<span class="subbullet">
-	Robust counterfactual visualization with spatial-intensity transforms
+	Identifying radiological biomarkers with generative models
