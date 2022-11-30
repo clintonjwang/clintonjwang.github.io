@@ -51,7 +51,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Conference Workshop</i></a> 2022 <oral>Oral</oral><br />
+  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Workshop</i></a> 2022 <oral>Oral</oral><br />
   	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
   	</div>
   <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://www.youtube.com/watch?v=NlcOBLxbekc">Video</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
