@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (acute ischemic stroke, neurodegenerative disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation.
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (stroke, Alzheimer's disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation.
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and interned at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/). I received a B.S. in Biomedical Engineering at Yale, where I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -145,7 +145,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
   	<u>Clinton Wang</u>,
   	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020 <oral>Oral</oral><br />
+  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
   	<a href="https://www.mitmgb.ai/posters-list/"><i>MIT MGB AI Cures Conference</i></a> 2022 <br />
   	</div>
   <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://www.youtube.com/watch?v=n8nPG7xlL-0">Video</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
