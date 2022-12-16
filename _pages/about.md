@@ -42,7 +42,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	}
 </style>
 
-## Publications
+## Selected Publications
 
 <table class="pub_table">
 <tr>
@@ -250,22 +250,24 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 * Yale Department of Biomedical Engineering Prize, 2015
 * Tau Beta Pi Engineering Honor Society, 2015
 
-## Teaching
-* Advances in Computer Vision (6.819/6.869), MIT, Spring 2021<br>
-	<span class="subbullet">
-	Teaching Assistant with Prof. Bill Freeman and Phillip Isola
-* Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
-
-## Academic Service
-* Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)
-* Reviewer, Medical Image Analysis (MedIA)
-* Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
-* Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
-
 ## Invited Talks
+* Google Brain, Toronto 2022<br>
+	<span class="subbullet">
+	Deep learning on neural fields
 * Boston Medical Imaging Workshop 2022<br>
 	<span class="subbullet">
 	Robust counterfactual image generation with spatial-intensity transforms
 * MIT-Takeda Presentation Series 2022<br>
 	<span class="subbullet">
 	Identifying radiological biomarkers with generative models
+
+## Teaching
+* Teaching Assistant, Advances in Computer Vision (6.819/6.869), MIT, 2021
+* Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
+<!-- * Guest Lecture, Intro to Computer Graphics (6.4400), MIT, 2022 -->
+
+## Academic Service
+* Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)
+* Reviewer, Medical Image Analysis (MedIA)
+* Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
+* Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
