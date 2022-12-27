@@ -261,13 +261,16 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	<span class="subbullet">
 	Identifying radiological biomarkers with generative models
 
+<!--
 ## Teaching
 * Teaching Assistant, Advances in Computer Vision (6.819/6.869), MIT, 2021
 * Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
-<!-- * Guest Lecture, Intro to Computer Graphics (6.4400), MIT, 2022 -->
+* Guest Lecture, Intro to Computer Graphics (6.4400), MIT, 2022
 
 ## Academic Service
 * Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)
+* Reviewer, International Conference on Machine Learning (ICML)
 * Reviewer, Medical Image Analysis (MedIA)
 * Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
 * Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
+-->
