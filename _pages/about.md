@@ -44,15 +44,21 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 
     /* Style the gallery */
     #gallery {
-		display: flex; /* Display the art pieces in a row */
-		flex-wrap: wrap; /* Wrap the art pieces onto multiple rows if needed */
+		/* display: block; */
+		display: flex;
+		flex-wrap: wrap;
     }
 
     /* Style the art pieces */
+    .gallery-row {
+		display: block; /* Display the art pieces in a row */
+		width: 100%; /* Set the width of each art piece to 30% of the gallery width */
+    }
+
     .art-piece {
-    	cursor: pointer;
+    	cursor: pointer; /* clickable */
 		width: 30%; /* Set the width of each art piece to 30% of the gallery width */
-		margin: 10px; /* Add some margin around each art piece */
+		margin: 1%; /* Add some margin around each art piece */
     }
 
     /* Style the images */
@@ -69,10 +75,8 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		left: 50%; /* Center horizontally */
 		top: 50%; /* Center vertically */
 		transform: translate(-50%, -50%);
-		width: 768px;
-		height: 768px;
-		max-width: 40%;
-		max-height: 80%;
+		width: 512px;
+		height: 512px;
 		padding: 10px;
 		/* background-color: white; */
 		overflow: auto; /* Enable scroll if needed */
@@ -90,6 +94,11 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 })</script>
 
 {% include publications %}
+
+## AI-Generated Art ([more](https://www.instagram.com/clintonjwang/))
+<div id="gallery">
+</div>
+<img id="modal" src="">
 
 <!-- ## Selected Awards
 * Takeda Fellowship, 2021-2022
@@ -121,8 +130,3 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 * Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
 * Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
 -->
-
-## AI-Generated Art ([more](https://www.instagram.com/clintonjwang/))
-<div id="gallery">
-</div>
-<img id="modal" src="" class="modal-content">

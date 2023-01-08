@@ -18,12 +18,6 @@ function addArtPiece(id, collection, caption="") {
     artPieceHtml += '</div>';
     counter++;
 
-    // Create the modal HTML
-    // var modalHtml = '<div id="modal-' + id + '" class="modal">';
-    // // modalHtml += '<span class="close" id="close-' + id + '">&times;</span>';
-    // modalHtml += '<img src="' + fullResSrc + '" alt="' + caption + '" class="modal-content">';
-    // modalHtml += '</div>';
-
     // Add the art piece and modal to the page
     var gallery = document.getElementById("gallery");
     gallery.insertAdjacentHTML('beforeend', artPieceHtml);
@@ -31,7 +25,6 @@ function addArtPiece(id, collection, caption="") {
 
     // Get the image and modal elements
     var image = document.getElementById(id);
-    // var modal = document.getElementById('modal-' + id);
 
     // Add event listeners to the image and close button
     image.addEventListener("click", function() {
@@ -39,54 +32,47 @@ function addArtPiece(id, collection, caption="") {
         document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
         document.getElementById("modal").style.display = "block";
     });
-    // document.addEventListener('keydown', function(event) {
-    //     switch (event.key) {
-    //         case "ArrowLeft":
-    //         // Find the previous art piece and open its modal
-    //         // Reverse order
-    //         var prevModal = activeModal.nextElementSibling;
-    //         if (prevModal.matches('img')) {
-    //             activeModal.style.display = "none";
-    //             // var prevModalId = prevArtPiece.firstElementChild.id;
-    //             // var prevModal = document.getElementById(prevModalId);
-    //             prevModal.style.display = "block";
-    //             activeModal = prevModal;
-    //         }
-    //         break;
-    //         case "ArrowRight":
-    //         // Find the next art piece and open its modal
-    //         var nextModal = activeModal.previousElementSibling;
-    //         if (nextModal.matches('img')) {
-    //             activeModal.style.display = "none";
-    //             nextModal.style.display = "block";
-    //             activeModal = nextModal;
-    //         }
-    //         break;
-    //     }
-    // });
+}
+
+function addCollection(collection, ids, caption="", captions=null) {
+    if (captions == null) {
+        captions = [];
+        for (var i in ids) {
+            captions.push("");
+        }
+    }
+    let gallery = document.getElementById("gallery");
+    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    for (var i = 0; i < ids.length; i++) {
+        addArtPiece(ids[i], collection, captions[i]);
+    }
+    if (caption != "") {
+        gallery.insertAdjacentHTML('beforeend', "<p>"+caption+"</p>");
+    }
+    gallery.insertAdjacentHTML('beforeend', "</div>");
 }
 
 window.onload = function() {
     document.addEventListener("keydown", function(event) {
         if (curModalIdx != null) {
-            switch (event.key) {
-            case "ArrowRight":
-                if (curModalIdx < fullResSrcs.length - 1) {
-                    curModalIdx++;
-                } else {
-                    curModalIdx = 0;
-                };
-                document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
-                break;
-            case "ArrowLeft":
-                if (curModalIdx > 0) {
-                    curModalIdx--;
-                } else {
-                    curModalIdx = fullResSrcs.length - 1;
-                };
-                document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
-                break;
-            }
+        switch (event.key) {
+        case "ArrowRight":
+            if (curModalIdx < fullResSrcs.length - 1) {
+                curModalIdx++;
+            } else {
+                curModalIdx = 0;
+            };
+            document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+            break;
+        case "ArrowLeft":
+            if (curModalIdx > 0) {
+                curModalIdx--;
+            } else {
+                curModalIdx = fullResSrcs.length - 1;
+            };
+            document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+            break;
+        }
         }
     });
     
@@ -99,31 +85,19 @@ window.onload = function() {
       }
     });
 
-    var gallery = document.getElementById("gallery");
-    addArtPiece("04", "new-year")
-    addArtPiece("00", "new-year")
-    addArtPiece("13", "new-year")
-    gallery.insertAdjacentHTML('beforeend', "<p>Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.</p>");
-    gallery.insertAdjacentHTML('beforeend', "<br><br>");
-    addArtPiece("14", "corkscrew")
-    addArtPiece("03", "corkscrew")
-    addArtPiece("19", "corkscrew")
-    gallery.insertAdjacentHTML('beforeend', "<p>A giant corkscrew as the villain in a classic hand-drawn animated Disney cartoon.</p>");
-    gallery.insertAdjacentHTML('beforeend', "<br><br>");
-    addArtPiece("09", "grilled", "Perfectly grilled violin.")
-    addArtPiece("16", "grilled", "Perfectly grilled tennis ball.")
-    addArtPiece("17", "grilled", "Perfectly grilled light bulb.")
-    gallery.insertAdjacentHTML('beforeend', "<br><br>");
-    addArtPiece("10", "nyse")
-    addArtPiece("07", "nyse")
-    addArtPiece("03", "nyse")
-    gallery.insertAdjacentHTML('beforeend', "<p>National Geographic award-winning photos on the trading floor of the NYSE.</p>");
-    gallery.insertAdjacentHTML('beforeend', "<br><br>");
-    addArtPiece("07", "spaghetti")
-    addArtPiece("12", "spaghetti")
-    addArtPiece("07a", "spaghetti")
-    gallery.insertAdjacentHTML('beforeend', '<p>Billy Mays, Karl Marx and Ruth Bader Ginsburg "triumphantly advertising spaghetti".</p>');
-    gallery.insertAdjacentHTML('beforeend', "<br><br>");
+    let gallery = document.getElementById("gallery");
+    addCollection("new-year", ["04", "00", "13"],
+        'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
+    addCollection("corkscrew", ["14", "03", "19"],
+        'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
+    addCollection("grilled", ["09", "16", "17"], "",
+        ['Perfectly grilled violin.',
+        'Perfectly grilled tennis ball.',
+        'Perfectly grilled light bulb.']);
+    addCollection("spaghetti", ["07", "12", "07a"],
+        'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
+    addCollection("nyse", ["10", "07", "03"],
+        'National Geographic award-winning photos on the trading floor of the NYSE.');
     addArtPiece("0F", "edited", "A handshake.")
     addArtPiece("96", "edited", "Pencil sharpener ゴゴゴゴ")
     // addArtPiece("96", "edited", "Vive la révolution!")
