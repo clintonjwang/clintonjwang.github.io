@@ -10,7 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. My projects have included analyzing brain MRI (stroke, Alzheimer's disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease). I also work on 3D vision, including neural fields and trajectory estimation. I also like making [AI-generated content](https://www.instagram.com/clintonjwang/).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research focuses on medical image analysis, particularly robust and interpretable techniques for both generative and discriminative models. I also work on 3D vision, including neural fields and trajectory estimation. I make [AI-generated art](#ai-generated-art-more).
+<!-- My projects have included analyzing brain MRI (stroke, Alzheimer's disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease).  -->
 
 I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and interned at [Iterative Scopes](https://www.iterativescopes.com/). I am supported by the [Takeda Fellowship](https://mittakedaprogram.mit.edu/) and [Siebel Scholarship](http://www.siebelscholars.com/). I received a B.S. in Biomedical Engineering at Yale, where I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
@@ -40,211 +41,57 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		font-weight: bold;
 		color: red;
 	}
+
+    /* Style the gallery */
+    #gallery {
+		display: flex; /* Display the art pieces in a row */
+		flex-wrap: wrap; /* Wrap the art pieces onto multiple rows if needed */
+    }
+
+    /* Style the art pieces */
+    .art-piece {
+    	cursor: pointer;
+		width: 30%; /* Set the width of each art piece to 30% of the gallery width */
+		margin: 10px; /* Add some margin around each art piece */
+    }
+
+    /* Style the images */
+    .art-piece img {
+		width: 100%; /* Set the width of the images to 100% of the art piece width */
+    }
+	
+	/* Style the modals */
+	#modal {
+		display: none;
+		margin: auto;
+		position: fixed;
+		z-index: 1; /* Sit on top */
+		left: 50%; /* Center horizontally */
+		top: 50%; /* Center vertically */
+		transform: translate(-50%, -50%);
+		width: 768px;
+		height: 768px;
+		max-width: 40%;
+		max-height: 80%;
+		padding: 10px;
+		/* background-color: white; */
+		overflow: auto; /* Enable scroll if needed */
+		/* background-color: rgb(0,0,0); Fallback color */
+		background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	}
+
 </style>
+<script src="assets/js/gallery.js"></script>
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
 
-## Selected Publications
+{% include publications %}
 
-<table class="pub_table">
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
-  <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
-		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Workshop</i></a> 2022 <oral>Oral</oral><br />
-  	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
-  	</div>
-  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://www.youtube.com/watch?v=NlcOBLxbekc">Video</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
-</td></tr>
-{% include table-space.html %}
-
-<!-- 
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/teasers/tmi22_teaser.png" /></a></div></td>
-  <td class="pub_td2"><b>High Fidelity Medical Image-to-Image Translation with Spatial-Intensity Transforms</b><br />
-		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>,
-  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<i>arXiv preprint</i> 2022<br />
-  	</div>
-  <a href="">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
-</td></tr>
-{% include table-space.html %}
--->
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2208.02895"><img class="teaser_img" src="images/teasers/placenta_teaser.png" /></a></div></td>
-  <td class="pub_td2"><b>Automatic Segmentation of the Placenta in BOLD MRI Time Series</b><br />
-		<div class='paper_metadata'>
-  	<a href="http://people.csail.mit.edu/abulnaga/">Mazdak Abulnaga</a>,
-  	<a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/194239">Sean Young</a>, Katherine Hobgood, Eileen Pan, <u>Clinton Wang</u>,
-  	<a href="https://www.childrenshospital.org/directory/patricia-ellen-grant">Ellen Grant</a>,
-  	<a href="https://www.childrenshospital.org/research/researchers/esra-abaci-turk">Esra Abaci Turk</a>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="https://pippiworkshop.github.io/"><i>Medical Image Computing and Computer Assisted Intervention PIPPI Workshop</i></a> 2022<br />
-  	</div>
-  <a href="http://arxiv.org/abs/2208.02895">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
-</td></tr>
-<tr><td class="pub_td1"></td><td class="pub_td2"></td></tr>
-{% include table-space.html %}
-
-<tr>
-  <td class="pub_td1">
-		<a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">
-			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
-  		<source src="files/21-virtualhome-language.mp4" type="video/mp4">
-			</video>
-		</a>
-	</td>
-  <td class="pub_td2"><b>Pre-Trained Language Models for Interactive Decision-Making</b><br />
-		<div class='paper_metadata'>
-  	<a href="https://people.csail.mit.edu/lishuang/">Shuang Li</a>,
-		<a href="https://people.csail.mit.edu/xavierpuig/">Xavier Puig</a>,
-		<a href="https://cpaxton.github.io/about/">Chris Paxton</a>,
-		<a href="https://yilundu.github.io/">Yilun Du</a>,
-		<u>Clinton Wang</u>,
-		<a href="https://scholar.google.com/citations?user=sljtWIUAAAAJ&hl=en">Linxi Fan</a>,
-		<a href="https://taochenshh.github.io">Tao Chen</a>,
-		<a href="https://ai.stanford.edu/~dahuang/">De-An Huang</a>,
-		<a href="https://www.ekinakyurek.me/">Ekin Akyürek</a>, 
-		<a href="http://tensorlab.cms.caltech.edu/users/anima/">Anima Anandkumar</a>,
-		<a href="https://www.mit.edu/~jda/">Jacob Andreas</a>,
-		<a href="https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en">Igor Mordatch</a>, 
-		<a href="https://groups.csail.mit.edu/vision/torralbalab/">Antonio Torralba</a>,
-		<a href="https://www.cs.utexas.edu/~yukez/">Yuke Zhu</a><br />
-	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i> 2022</a> <oral>Oral</oral><br />
-		</div>
-  <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/teasers/2021_eurorad_paula.png" /></a></div></td>
-  <td class="pub_td2"><b>Deep learning–assisted differentiation of pathologically proven atypical and typical hepatocellular carcinoma (HCC) versus non-HCC on contrast-enhanced MRI of the liver</b><br />
-		<div class='paper_metadata'>
-	  Paula Oestmann, <u>Clinton Wang</u>,
-	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Charlie Hamm, Sophie Stark, Isabel Schobert,
-	  <a href="https://radiologie.charite.de/metas/person/person/address_detail/gebauer-6/">Bernhard Gebauer</a>,
-		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
-		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
-		Ramesh Batra, David Mulligan, Xuchen Zhang,
-		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a><br />
-	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2021<br />
-		</div>
-  <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a>
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
-  <td class="pub_td2" bgcolor="FFFFD9"><b>Spatial-Intensity Transform GANs for High Fidelity Medical Image-to-Image Translation</b><br />
-		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>,
-  	<a href="https://www.massgeneral.org/doctors/17477/natalia-rost/">Natalia Rost</a>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="http://www.miccai.org/"><i>Medical Image Computing and Computer Assisted Intervention</i></a> 2020<br />
-  	<a href="https://www.mitmgb.ai/posters-list/"><i>MIT MGB AI Cures Conference</i></a> 2022 <br />
-  	</div>
-  <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://www.youtube.com/watch?v=n8nPG7xlL-0">Video</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/teasers/2020_scireports.png" /></a></div></td>
-  <td class="pub_td2"><b>Automated feature quantification of Lipiodol as imaging biomarker to predict therapeutic efficacy of conventional transarterial chemoembolization of liver cancer</b><br />
-		<div class='paper_metadata'>
-	  Sophie Stark, <u>Clinton Wang</u>,
-	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>,
-	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
-	  Isabel Schobert, Milena Miszczuk, Nikitha Murali, Paula Oestmann, Bernhard Gebauer, 
-		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
-		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
-		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a><br />
-	  <a href="https://www.nature.com/srep/about"><i>Scientific Reports</i></a> 2020<br />
-		</div>
-  <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a> | <a href="https://github.com/clintonjwang/lipiodol">Code</a>
-</td></tr>
-{% include table-space.html %}
-
-<!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
-<tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1117/12.2512473"><img class="teaser_img" src="images/teasers/spie19_teaser.jpg"/></a></div></td>
-	<td class="pub_td2" bgcolor="FFFFD9"><b>A probabilistic approach for interpretable deep learning in liver cancer diagnosis</b><br>
-		<div class='paper_metadata'>
-		<u>Clinton Wang</u>, Charlie Hamm,
-	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
-		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a><br>
-		<a href="https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1"><i>SPIE Medical Imaging Conference</i></a> 2019 <oral>Oral</oral><br>
-		</div>
-	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/teasers/2020_eurorad_part2.png"/></a></div></td>
-	<td class="pub_td2" bgcolor="FFFFD9"><b>Deep learning for liver tumor diagnosis part II: interpretable deep learning to characterize tumor features</b><br>
-		<div class='paper_metadata'>
-		<u>Clinton Wang</u>*, Charlie Hamm*,
-	  <a href="https://radiologie.charite.de/en/metas/person/person/address_detail/savic/">Lynn Savic</a>, Marc Ferrante, Isabel Schobert,
-		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>,
-		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
-		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>,
-	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a><br>
-	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2019<br>
-		</div>
-	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/teasers/2020_eurorad_part1.png"/></a></div></td>
-	<td class="pub_td2"><b>Deep learning for liver tumor diagnosis part I: development of a convolutional neural network classifier for multi-phasic MRI</b><br>
-		<div class='paper_metadata'>
-		Charlie Hamm*, <u>Clinton Wang</u>*, Marc Ferrante, Isabel Schobert,
-		<a href="https://medicine.yale.edu/profile/todd_schlachter/">Todd Schlachter</a>,
-		<a href="https://medicine.yale.edu/profile/mingde_lin/">MingDe Lin</a>, 
-		<a href="https://medicine.yale.edu/profile/james_duncan/">James Duncan</a>, 
-		<a href="https://medicine.yale.edu/profile/jeffrey_weinreb/">Jeffrey Weinreb</a>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>,
-	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a><br>
-	  <a href="https://www.springer.com/journal/330"><i>European Radiology</i></a> 2019<br>
-		</div>
-	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/teasers/jvir_review_teaser.jpg"/></a></div></td>
-	<td class="pub_td2"><b>The Role of Artificial Intelligence in Interventional Oncology: A Primer</b><br>
-		<div class='paper_metadata'>
-	  <a href="https://www.linkedin.com/in/brian-letzen-m-d-m-s-74a364b/">Brian Letzen</a>,
-	  <u>Clinton Wang</u>,
-		<a href="https://medicine.yale.edu/profile/julius_chapiro/">Julius Chapiro</a>
-		<br><i>Journal of Vascular and Interventional Radiology</i> 2019<br>
-		</div>
-	<a href="https://doi.org/10.1016/j.jvir.2018.08.032">Paper</a>
-</td></tr>
-{% include table-space.html %}
-
-<tr>
-	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/teasers/mybpc_jmcc.png"/></a></div></td>
-	<td class="pub_td2"><b>Slowing of contractile kinetics by myosin-binding protein C can be explained by its cooperative binding to the thin filament</b><br>
-		<div class='paper_metadata'>
-		<u>Clinton Wang</u>, Jonas Schwan,
-		<a href="https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell">Stuart Campbell</a>
-		<br><i>Journal of Molecular and Cellular Cardiology</i> 2016<br>
-		</div>
-	<a href="https://doi.org/10.1016/j.yjmcc.2015.10.007">Paper</a>
-</td></tr>
-</table>
-
-## Selected Awards
+<!-- ## Selected Awards
 * Takeda Fellowship, 2021-2022
 * Siebel Foundation Scholar, 2020
 * Yale Department of Biomedical Engineering Prize, 2015
@@ -259,7 +106,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 	Robust counterfactual image generation with spatial-intensity transforms
 * MIT-Takeda Presentation Series 2022<br>
 	<span class="subbullet">
-	Identifying radiological biomarkers with generative models
+	Identifying radiological biomarkers with generative models -->
 
 <!--
 ## Teaching
@@ -274,3 +121,8 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 * Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
 * Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
 -->
+
+## AI-Generated Art ([more](https://www.instagram.com/clintonjwang/))
+<div id="gallery">
+</div>
+<img id="modal" src="" class="modal-content">
