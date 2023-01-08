@@ -72,14 +72,23 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		margin: auto;
 		position: fixed;
 		z-index: 1; /* Sit on top */
-		left: 50%; /* Center horizontally */
-		top: 50%; /* Center vertically */
+		left: 50%;
+		top: 50%;
 		transform: translate(-50%, -50%);
-		width: 512px;
-		height: 512px;
+		/* width: 512px; */
+		/* height: 512px; */
+		/* aspect-ratio: 1/1; */
+		--r: 1/1;
+		aspect-ratio: var(--r);
+		width:min(90%, min(960px, 90vh*(var(--r))));
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
+		
+  		/* overflow: hidden; */
 		padding: 10px;
-		/* background-color: white; */
-		overflow: auto; /* Enable scroll if needed */
+		overflow: auto;
 		/* background-color: rgb(0,0,0); Fallback color */
 		background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 	}
