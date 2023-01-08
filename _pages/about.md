@@ -81,7 +81,7 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		--r: 1/1;
 		aspect-ratio: var(--r);
 		width:min(90%, min(960px, 90vh*(var(--r))));
-		display: flex;
+		/* display: flex; */
 		justify-content: center;
 		align-items: center;
 		box-sizing: border-box;
