@@ -86,19 +86,20 @@ window.onload = function() {
     });
 
     let gallery = document.getElementById("gallery");
-    addCollection("new-year", ["04", "00", "13"],
+    addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
     addCollection("corkscrew", ["14", "03", "19"],
         'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
     addCollection("grilled", ["09", "16", "17"], "",
-        ['Perfectly grilled violin.',
-        'Perfectly grilled tennis ball.',
-        'Perfectly grilled light bulb.']);
+        ['Grilled violin.',
+        'Grilled tennis ball.',
+        'Grilled light bulb.']);
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
     addCollection("nyse", ["10", "07", "03"],
         'National Geographic award-winning photos on the trading floor of the NYSE.');
-    addArtPiece("0F", "edited", "A handshake.")
-    addArtPiece("96", "edited", "Pencil sharpener ゴゴゴゴ")
+    addArtPiece("0F", "misc", "A handshake.")
+    addArtPiece("96", "misc", "Pencil sharpener ゴゴゴゴ")
+    addArtPiece("03", "heroes", "Water bottle hero.")
     // addArtPiece("96", "edited", "Vive la révolution!")
 }
