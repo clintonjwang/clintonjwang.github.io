@@ -34,13 +34,14 @@ function addArtPiece(id, collection, caption="") {
     });
 }
 
-function addArtVideo(id, collection, caption="") {
+function addArtVideo(id, collection, url, caption="") {
     var thumbnailSrc = "images/gallery/" + collection + "/" + id + ".mp4";
 
     // Create the art piece HTML
     var artPieceHtml = '<div class="art-piece">'
+    artPieceHtml += '<a href="' + url + '" target="_blank">';
     artPieceHtml += '<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">';
-    artPieceHtml += '<source src="' + thumbnailSrc + '" id="' + id + '" type=video/mp4></video>';
+    artPieceHtml += '<source src="' + thumbnailSrc + '" id="' + id + '" type=video/mp4></video></a>';
     if (caption != "") {
         artPieceHtml += '<p>' + caption + '</p>';
     }
@@ -105,6 +106,9 @@ window.onload = function() {
 
     addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
+    addArtVideo("o4", "misc", "https://www.instagram.com/p/CnPWggDOJVM/", "Monstrous orange.")
+    addArtPiece("0F", "misc", "A handshake.")
+    addArtPiece("96", "misc", "Pencil sharpener ゴゴゴゴ")
     addCollection("corkscrew", ["14", "03", "19"],
         'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
     addCollection("grilled", ["09", "16", "17"], "",
@@ -115,7 +119,4 @@ window.onload = function() {
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
     addCollection("nyse", ["10", "07", "03"],
         'National Geographic award-winning photos on the trading floor of the NYSE.');
-    addArtPiece("0F", "misc", "A handshake.")
-    addArtPiece("96", "misc", "Pencil sharpener ゴゴゴゴ")
-    addArtVideo("o4", "misc", "Monstrous orange.")
 }
