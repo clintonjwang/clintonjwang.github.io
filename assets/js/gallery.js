@@ -46,7 +46,6 @@ function addArtVideo(id, collection, url, caption="") {
         artPieceHtml += '<p>' + caption + '</p>';
     }
     artPieceHtml += '</div>';
-    counter++;
 
     // Add the art piece and modal to the page
     var gallery = document.getElementById("gallery");
