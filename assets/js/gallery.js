@@ -34,6 +34,24 @@ function addArtPiece(id, collection, caption="") {
     });
 }
 
+function addArtVideo(id, collection, caption="") {
+    var thumbnailSrc = "images/gallery/" + collection + "/" + id + ".mp4";
+
+    // Create the art piece HTML
+    var artPieceHtml = '<div class="art-piece">'
+    artPieceHtml += '<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">';
+    artPieceHtml += '<source src="' + thumbnailSrc + '" id="' + id + '" type=video/mp4></video>';
+    if (caption != "") {
+        artPieceHtml += '<p>' + caption + '</p>';
+    }
+    artPieceHtml += '</div>';
+    counter++;
+
+    // Add the art piece and modal to the page
+    var gallery = document.getElementById("gallery");
+    gallery.insertAdjacentHTML('beforeend', artPieceHtml);
+}
+
 function addCollection(collection, ids, caption="", captions=null) {
     if (captions == null) {
         captions = [];
@@ -85,7 +103,6 @@ window.onload = function() {
       }
     });
 
-    let gallery = document.getElementById("gallery");
     addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
     addCollection("corkscrew", ["14", "03", "19"],
@@ -100,6 +117,5 @@ window.onload = function() {
         'National Geographic award-winning photos on the trading floor of the NYSE.');
     addArtPiece("0F", "misc", "A handshake.")
     addArtPiece("96", "misc", "Pencil sharpener ゴゴゴゴ")
-    addArtPiece("03", "heroes", "Water bottle hero.")
-    // addArtPiece("96", "edited", "Vive la révolution!")
+    addArtVideo("o4", "misc", "Monstrous orange.")
 }
