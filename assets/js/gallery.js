@@ -106,8 +106,8 @@ window.onload = function() {
     addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
     addArtVideo("o4", "misc", "https://www.instagram.com/p/CnPWggDOJVM/", "Monstrous orange.")
+    addArtVideo("96", "misc", "https://www.instagram.com/p/CnUgwucuHc7/", "Pencil sharpener.")
     addArtPiece("0F", "misc", "A handshake.")
-    addArtPiece("96", "misc", "Pencil sharpener ゴゴゴゴ")
     addCollection("corkscrew", ["14", "03", "19"],
         'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
     addCollection("grilled", ["09", "16", "17"], "",
