@@ -103,19 +103,26 @@ window.onload = function() {
       }
     });
 
+    let gallery = document.getElementById("gallery");
     addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
-    addArtVideo("o4", "misc", "https://www.instagram.com/p/CnPWggDOJVM/", "Monstrous orange.")
-    addArtVideo("96", "misc", "https://www.instagram.com/p/CnUgwucuHc7/", "Pencil sharpener.")
-    addArtPiece("0F", "misc", "A handshake.")
-    addCollection("corkscrew", ["14", "03", "19"],
-        'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
+    
+    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "")
+    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "")
+    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "")
+    gallery.insertAdjacentHTML('beforeend', "</div>");
+
     addCollection("grilled", ["09", "16", "17"], "",
         ['Grilled violin.',
         'Grilled tennis ball.',
         'Grilled light bulb.']);
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
+    addCollection("corkscrew", ["14", "03", "19"],
+        'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
     addCollection("nyse", ["10", "07", "03"],
         'National Geographic award-winning photos on the trading floor of the NYSE.');
+
+    addCollection("misc", ["0F", "10", "01"], "")
 }
