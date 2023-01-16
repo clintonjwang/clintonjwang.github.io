@@ -31,6 +31,8 @@ function addArtPiece(id, collection, caption="") {
         curModalIdx = parseInt(image.getAttribute("index"));
         document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
         document.getElementById("modal").style.display = "block";
+        document.getElementById("leftarrow").style.display = "block";
+        document.getElementById("rightarrow").style.display = "block";
     });
 }
 
@@ -70,59 +72,84 @@ function addCollection(collection, ids, caption="", captions=null) {
     gallery.insertAdjacentHTML('beforeend', "</div>");
 }
 
+function goLeft() {
+    if (curModalIdx > 0) {
+        curModalIdx--;
+    } else {
+        curModalIdx = fullResSrcs.length - 1;
+    };
+    document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+}
+
+function goRight() {
+    if (curModalIdx < fullResSrcs.length - 1) {
+        curModalIdx++;
+    } else {
+        curModalIdx = 0;
+    };
+    document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+}
+
 window.onload = function() {
     document.addEventListener("keydown", function(event) {
         if (curModalIdx != null) {
         switch (event.key) {
         case "ArrowRight":
-            if (curModalIdx < fullResSrcs.length - 1) {
-                curModalIdx++;
-            } else {
-                curModalIdx = 0;
-            };
-            document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+            goRight();
             break;
         case "ArrowLeft":
-            if (curModalIdx > 0) {
-                curModalIdx--;
-            } else {
-                curModalIdx = fullResSrcs.length - 1;
-            };
-            document.getElementById("modal").setAttribute("src", fullResSrcs[curModalIdx]);
+            goLeft();
             break;
         }
         }
     });
-    
+    var leftarrow = document.getElementById("leftarrow");
+    var rightarrow = document.getElementById("rightarrow");
     document.addEventListener("click", function(event) {
-      if (!event.target.matches('img')) {
-        document.getElementById("modal").style.display = "none";
-        curModalIdx = null;
-        // activeModal.style.display = "none";
-        // activeModal = null;
-      }
+        if (event.target == leftarrow) {
+            goLeft();
+        }
+        else if (event.target == rightarrow) {
+            goRight();
+        }
+        else if (!event.target.matches('img')) {
+            document.getElementById("modal").style.display = "none";
+            leftarrow.style.display = "none";
+            rightarrow.style.display = "none";
+            curModalIdx = null;
+            // activeModal.style.display = "none";
+            // activeModal = null;
+        }
     });
 
     let gallery = document.getElementById("gallery");
-    addCollection("new-year", ["04", "13", "00"],
-        'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
     
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "")
-    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "")
-    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "")
+    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
+    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
+    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "ゴゴゴゴ.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
     addCollection("grilled", ["09", "16", "17"], "",
         ['Grilled violin.',
         'Grilled tennis ball.',
         'Grilled light bulb.']);
+
+    addCollection("misc", ["0F", "10", "01"], "",
+        ['Young adulthood.',
+        'Retirement goals.',
+        'Christian rock.'])
+
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
+
     addCollection("corkscrew", ["14", "03", "19"],
         'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
+
+    addCollection("new-year", ["04", "13", "00"],
+        'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
+
     addCollection("nyse", ["10", "07", "03"],
         'National Geographic award-winning photos on the trading floor of the NYSE.');
 
-    addCollection("misc", ["0F", "10", "01"], "")
 }

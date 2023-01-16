@@ -85,6 +85,34 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 		overflow: auto;
 		background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 	}
+	
+	.button {
+		display: none;
+		background: white;
+		border-radius: 50%;
+		box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+		position: fixed;
+		cursor: pointer;
+		margin-left: 2px;
+		margin-right: 2px;
+		margin-top: -20px;
+  		color: rgb(102, 102, 102);
+		opacity: 1;
+		transition-duration: .2s;
+		transition-property: opacity;
+		z-index: 3;
+		top: 50%;
+		align-items: center;
+		border: none;
+		justify-content: center;
+		padding: 2px 10px 4px;
+	}
+	#leftarrow {
+		left: 5px;
+	}
+	#rightarrow {
+		right: 5px;
+	}
 
 </style>
 <script src="assets/js/gallery.js"></script>
@@ -101,6 +129,12 @@ I previously worked with [Jim Duncan](https://medicine.yale.edu/profile/james_du
 <div id="gallery">
 </div>
 <img id="modal" src="">
+<div id="leftarrow" class="button">
+	<
+</div>
+<div id="rightarrow" class="button">
+	>
+</div>
 
 <!-- ## Selected Awards
 * Takeda Fellowship, 2021-2022
