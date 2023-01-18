@@ -140,6 +140,11 @@ window.onload = function() {
         'Retirement goals.',
         'Christian rock.'])
 
+    addCollection("nyse", ["ssb_sq", "bull", "bear"], "",
+        ['Nostalgia.',
+        'Bull market.',
+        'Bear market.']);
+
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
 
@@ -148,8 +153,5 @@ window.onload = function() {
 
     addCollection("new-year", ["04", "13", "00"],
         'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
-
-    addCollection("nyse", ["10", "07", "03"],
-        'National Geographic award-winning photos on the trading floor of the NYSE.');
 
 }
