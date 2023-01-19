@@ -145,13 +145,11 @@ window.onload = function() {
         'Bull market.',
         'Bear market.']);
 
+    addCollection("misc", ["chatgpt", "cork", "fireworks"], '',
+        ['Due in 1 hour, haven\'t started',
+        'Corky the corkscrew.', 'Somebody\'s name.']);
+
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
-
-    addCollection("corkscrew", ["14", "03", "19"],
-        'A giant corkscrew as the villain in a classic hand-drawn Disney animation.');
-
-    addCollection("new-year", ["04", "13", "00"],
-        'Magical New Year fireworks + Parthenon + rainforest + Studio Ghibli.');
 
 }
