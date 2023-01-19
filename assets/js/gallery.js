@@ -136,7 +136,7 @@ window.onload = function() {
         'Grilled light bulb.']);
 
     addCollection("misc", ["0F", "10", "01"], "",
-        ['Young adulthood.',
+        ['Womanhood.',
         'Retirement goals.',
         'Christian rock.'])
 
@@ -146,10 +146,10 @@ window.onload = function() {
         'Bear market.']);
 
     addCollection("misc", ["chatgpt", "cork", "fireworks"], '',
-        ['Due in 1 hour, haven\'t started',
-        'Corky the corkscrew.', 'Somebody\'s name.']);
+        ['Due in 1 hour.',
+        'Corky the corkscrew.',
+        'TBD\'s name.']);
 
     addCollection("spaghetti", ["07", "12", "07a"],
         'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
-
 }
