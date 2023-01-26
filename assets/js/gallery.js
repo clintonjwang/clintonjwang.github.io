@@ -135,8 +135,24 @@ window.onload = function() {
         'Grilled tennis ball.',
         'Grilled light bulb.']);
 
-    addCollection("misc", ["0F", "10", "01"], "",
-        ['Womanhood.',
+    addCollection("misc", ["lavoix", "gcal", "rbg"], '',
+        ['La voix de l\'invisible.',
+        'Find time on my calendar.',
+        'Michelangelo RBG pasta ad.']);
+
+    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
+    addArtVideo("weareone", "vids", "https://www.instagram.com/p/CnxWNMAhs_2/", "We are one.")
+    addArtVideo("magic_ball", "vids", "https://www.instagram.com/p/CnnhqcltanU/", "🔮👀.")
+    gallery.insertAdjacentHTML('beforeend', "</div>");
+
+    addCollection("misc", ["chatgpt", "cork", "0F"], '',
+        ['Due in 1 hour.',
+        'Corky the corkscrew.',
+        'Womanhood.']);
+
+    addCollection("misc", ["fireworks", "10", "01"], "",
+        ['スパゲッティとミートボール.',
         'Retirement goals.',
         'Christian rock.'])
 
@@ -144,12 +160,4 @@ window.onload = function() {
         ['Nostalgia.',
         'Bull market.',
         'Bear market.']);
-
-    addCollection("misc", ["chatgpt", "cork", "fireworks"], '',
-        ['Due in 1 hour.',
-        'Corky the corkscrew.',
-        'TBD\'s name.']);
-
-    addCollection("spaghetti", ["07", "12", "07a"],
-        'Billy Mays, Karl Marx, and Ruth Bader Ginsburg "triumphantly advertising spaghetti".');
 }
