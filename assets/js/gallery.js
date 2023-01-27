@@ -91,6 +91,8 @@ function goRight() {
 }
 
 window.onload = function() {
+    var leftarrow = document.getElementById("leftarrow");
+    var rightarrow = document.getElementById("rightarrow");
     document.addEventListener("keydown", function(event) {
         if (curModalIdx != null) {
         switch (event.key) {
@@ -100,11 +102,15 @@ window.onload = function() {
         case "ArrowLeft":
             goLeft();
             break;
+        case "Escape":
+            document.getElementById("modal").style.display = "none";
+            leftarrow.style.display = "none";
+            rightarrow.style.display = "none";
+            curModalIdx = null;
+            break;
         }
         }
     });
-    var leftarrow = document.getElementById("leftarrow");
-    var rightarrow = document.getElementById("rightarrow");
     document.addEventListener("click", function(event) {
         if (event.target == leftarrow) {
             goLeft();
