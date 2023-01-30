@@ -148,16 +148,16 @@ window.onload = function() {
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
     addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
-    addArtVideo("weareone", "vids", "https://www.instagram.com/p/CnxWNMAhs_2/", "We are one.")
+    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
     addArtVideo("magic_ball", "vids", "https://www.instagram.com/p/CnnhqcltanU/", "🔮👀.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
-    addCollection("misc", ["chatgpt", "cork", "0F"], '',
+    addCollection("misc", ["chatgpt", "cork", "mlisa"], '',
         ['Due in 1 hour.',
         'Corky the corkscrew.',
         'Womanhood.']);
 
-    addCollection("misc", ["fireworks", "10", "01"], "",
+    addCollection("misc", ["fireworks", "nascar", "vatican"], "",
         ['スパゲッティとミートボール.',
         'Retirement goals.',
         'Christian rock.'])
@@ -166,4 +166,9 @@ window.onload = function() {
         ['Nostalgia.',
         'Bull market.',
         'Bear market.']);
+
+    addCollection("misc", ["monster", "geico", "pain"], "",
+        ['Stranger things.',
+        'Hustler.',
+        'Pain.']);
 }
