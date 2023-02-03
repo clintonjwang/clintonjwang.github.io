@@ -129,22 +129,22 @@ window.onload = function() {
     });
 
     let gallery = document.getElementById("gallery");
-    
-    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
-    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
-    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "ゴゴゴゴ.")
-    gallery.insertAdjacentHTML('beforeend', "</div>");
 
     addCollection("grilled", ["09", "16", "17"], "",
         ['Grilled violin.',
         'Grilled tennis ball.',
         'Grilled light bulb.']);
 
-    addCollection("misc", ["lavoix", "gcal", "rbg"], '',
+    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
+    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
+    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "Sharpener.")
+    gallery.insertAdjacentHTML('beforeend', "</div>");
+
+    addCollection("misc", ["lavoix", "gcal", "pain"], '',
         ['La voix de l\'invisible.',
         'Find time on my calendar.',
-        'Michelangelo RBG pasta ad.']);
+        'Pain.']);
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
     addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
@@ -152,13 +152,13 @@ window.onload = function() {
     addArtVideo("magic_ball", "vids", "https://www.instagram.com/p/CnnhqcltanU/", "🔮👀.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
-    addCollection("misc", ["chatgpt", "cork", "mlisa"], '',
+    addCollection("misc", ["chatgpt", "monster", "mlisa"], '',
         ['Due in 1 hour.',
-        'Corky the corkscrew.',
+        'Stranger things.',
         'Womanhood.']);
 
-    addCollection("misc", ["fireworks", "nascar", "vatican"], "",
-        ['スパゲッティとミートボール.',
+    addCollection("misc", ["geico", "nascar", "vatican"], "",
+        ['The Ensurer.',
         'Retirement goals.',
         'Christian rock.'])
 
@@ -167,8 +167,8 @@ window.onload = function() {
         'Bull market.',
         'Bear market.']);
 
-    addCollection("misc", ["monster", "geico", "pain"], "",
-        ['Stranger things.',
-        'Hustler.',
-        'Pain.']);
+    addCollection("misc", ["cork", "rbg", "plunger"], "",
+        ['Corky the corkscrew.',
+        'Michelangelo RBG pasta ad.',
+        'The plunge.']);
 }
