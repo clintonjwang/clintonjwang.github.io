@@ -136,9 +136,9 @@ window.onload = function() {
         'Grilled light bulb.']);
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("o4", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
-    addArtVideo("md", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
-    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "Sharpener.")
+    addArtVideo("orange", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
+    addArtVideo("town", "vids", "https://www.instagram.com/p/CoVKKUjDqc1/", "Town.")
+    addArtVideo("neural_network", "vids", "https://www.instagram.com/p/CoXZhlZj5NJ/", "Backpropagation.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
     addCollection("misc", ["lavoix", "gcal", "pain"], '',
@@ -147,8 +147,8 @@ window.onload = function() {
         'Pain.']);
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
-    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
+    addArtVideo("computer", "vids", "https://www.instagram.com/p/CoShZcRDLqM/", "System update.")
+    addArtVideo("mdew", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
     addArtVideo("magic_ball", "vids", "https://www.instagram.com/p/CnnhqcltanU/", "🔮👀.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
@@ -162,6 +162,12 @@ window.onload = function() {
         'Retirement goals.',
         'Christian rock.'])
 
+    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
+    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
+    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "Sharpener.")
+    gallery.insertAdjacentHTML('beforeend', "</div>");
+    
     addCollection("nyse", ["ssb_sq", "bull", "bear"], "",
         ['Nostalgia.',
         'Bull market.',
