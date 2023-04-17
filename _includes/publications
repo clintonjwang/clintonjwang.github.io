@@ -1,8 +1,27 @@
 ## Selected Publications
 
+<!-- <table class="pub_table">
+<tr>
+	<td class="pub_td1">
+		<a href="/interpolation">
+			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
+  		<source src="files/interpolation.mp4" type="video/mp4">
+			</video>
+		</a>
+	</td>
+  <td class="pub_td2" bgcolor="FFFFD9"><b>Interpolating between Images with Diffusion Models</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="https://necv2022.github.io/"><i>CVPR AI for Content Creation Workshop</i></a> 2023<br />
+  	</div>
+  <a href="/interpolation">Project</a> | <a href="http://arxiv.org/abs/">Paper</a> | <a href="https://github.com/clintonjwang/ControlNet">Code</a>
+</td></tr>
+{% include table-space.html %} -->
+
 <table class="pub_table">
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2206.01178"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
@@ -47,7 +66,7 @@
 {% include table-space.html %}
 
 <tr>
-  <td class="pub_td1">
+	<td class="pub_td1">
 		<a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">
 			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
   		<source src="files/21-virtualhome-language.mp4" type="video/mp4">

@@ -1,7 +1,6 @@
 A Github Pages template for academic websites. This was forked (then detached) by [Clinton Wang](https://github.com/clintonjwang) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
-
+## To run locally
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
 1. Run `bundle clean` to clean up the directory (no need to run `--force`)

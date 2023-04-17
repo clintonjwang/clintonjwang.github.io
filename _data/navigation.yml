@@ -4,9 +4,11 @@ main:
     url: /files/CV.pdf
   - title: "Neural Fields"
     url: /di-net
+  - title: "Diffusion Models"
+    url: /interpolation
   - title: "Counterfactual Images"
     url: /counterfactuals
-  - title: "Interpretability"
-    url: /interpretability
+  # - title: "Interpretability"
+  #   url: /interpretability
   - title: "Fun AI Creations"
     url: /#fun-ai-creations-more
