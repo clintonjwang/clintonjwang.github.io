@@ -1,6 +1,6 @@
 ## Selected Publications
 
-<!-- <table class="pub_table">
+<!--
 <tr>
 	<td class="pub_td1">
 		<a href="/interpolation">
@@ -20,8 +20,9 @@
 {% include table-space.html %} -->
 
 
+<table class="pub_table">
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href=""><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="/counterfactuals"><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Spatial-Intensity Transforms for Medical Image-to-Image Translation</b><br />
 		<div class='paper_metadata'>
   	<u>Clinton Wang</u>,
@@ -33,7 +34,6 @@
 </td></tr>
 {% include table-space.html %}
 
-<table class="pub_table">
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
