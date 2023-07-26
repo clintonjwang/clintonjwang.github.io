@@ -1,7 +1,6 @@
 ## Selected Publications
 
-<!--
-<tr>
+<!-- <tr>
 	<td class="pub_td1">
 		<a href="/interpolation">
 			<video width="100%" playsinline="" autoplay="" loop="" preload="" muted="">
@@ -15,7 +14,7 @@
   	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
   	<a href="https://necv2022.github.io/"><i>CVPR AI for Content Creation Workshop</i></a> 2023<br />
   	</div>
-  <a href="/interpolation">Project</a> | <a href="http://arxiv.org/abs/">Paper</a> | <a href="https://github.com/clintonjwang/ControlNet">Code</a>
+  <a href="/interpolation">Project</a> | <a href="https://arxiv.org/abs/2307.12560">Paper</a> | <a href="https://github.com/clintonjwang/ControlNet">Code</a>
 </td></tr>
 {% include table-space.html %} -->
 

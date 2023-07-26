@@ -36,7 +36,7 @@ sidebar: false
 	}
 </style>
 
-Paper under review \| [Code](https://github.com/clintonjwang/ControlNet)
+[Paper](https://arxiv.org/abs/2307.12560) \| [Code](https://github.com/clintonjwang/ControlNet)
 
 One little-explored frontier of image generation and editing is the task of interpolating between two input images. We present a method for zero-shot controllable interpolation using latent diffusion models. 
 
@@ -100,11 +100,9 @@ We obtain convincing interpolations across diverse subject poses, image styles, 
   }
 </script>
 
-Paper under review. You can check out [our code](https://github.com/clintonjwang/ControlNet).
-<!-- Read [our paper](http://arxiv.org/abs/) for more details, or check out [our code](https://github.com/clintonjwang/ControlNet). -->
+Paper presented at ICML 2023 Workshop on Challenges of Deploying Generative AI. Read [our paper](https://arxiv.org/abs/2307.12560) for more details, or check out [our code](https://github.com/clintonjwang/ControlNet).
 
-<!-- ### Bibtex
-
+### Bibtex
 ```
 @misc{wang2023interpolate,
       title={Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets}, 
@@ -114,4 +112,4 @@ Paper under review. You can check out [our code](https://github.com/clintonjwang
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
-``` -->
+```
