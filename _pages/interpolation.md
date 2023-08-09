@@ -100,15 +100,15 @@ We obtain convincing interpolations across diverse subject poses, image styles, 
   }
 </script>
 
-Paper presented at ICML 2023 Workshop on Challenges of Deploying Generative AI. Read [our paper](https://arxiv.org/abs/2307.12560) for more details, or check out [our code](https://github.com/clintonjwang/ControlNet).
+Paper presented at [ICML 2023 Workshop on Challenges of Deploying Generative AI](https://deployinggenerativeai.github.io/). Read [our paper](https://arxiv.org/abs/2307.12560) for more details, or check out [our code](https://github.com/clintonjwang/ControlNet).
 
 ### Bibtex
 ```
-@misc{wang2023interpolate,
-      title={Approximate Discretization Invariance for Deep Learning on Implicit Neural Datasets}, 
+@misc{wang2023interpolating,
+      title={Interpolating between Images with Diffusion Models}, 
       author={Clinton J. Wang and Polina Golland},
-      year={2022},
-      eprint={2206.01178},
+      year={2023},
+      eprint={2307.12560},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
