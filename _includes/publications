@@ -1,7 +1,7 @@
 ## Selected Publications
 
-<!-- <table class="pub_table">
-<tr>
+<table class="pub_table">
+<!-- <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/counterfactuals"><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Geometry-Aware Field-to-Field Transformations for 3D Semantic Segmenntation</b><br />
 		<div class='paper_metadata'>
@@ -14,8 +14,7 @@
 </td></tr>
 {% include table-space.html %} -->
 
-<!-- <table class="pub_table">
-<tr>
+<!-- <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/counterfactuals"><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Spatial Intensity Neural Fields</b><br />
 		<div class='paper_metadata'>
@@ -30,7 +29,7 @@
 <tr>
 	<td class="pub_td1">
 		<a href="/interpolation">
-			<video width="10%" playsinline autoplay loop preload muted>
+			<video width="100%" playsinline autoplay loop preload muted>
   		<source src="files/interpolation.mp4" type="video/mp4">
 			</video>
 		</a>
