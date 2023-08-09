@@ -46,7 +46,6 @@
 {% include table-space.html %}
 
 
-<table class="pub_table">
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/counterfactuals"><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
   <td class="pub_td2" bgcolor="FFFFD9"><b>Spatial-Intensity Transforms for Medical Image-to-Image Translation</b><br />
@@ -244,4 +243,5 @@
 		</div>
 	<a href="https://doi.org/10.1016/j.yjmcc.2015.10.007">Paper</a>
 </td></tr>
+
 </table>
