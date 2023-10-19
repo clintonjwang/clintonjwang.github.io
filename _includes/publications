@@ -27,6 +27,18 @@
 {% include table-space.html %} -->
 
 <tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2023_dinet.png" /></a></div></td>
+  <td class="pub_td2" bgcolor="FFFFD9"><b>Discretization Invariant Networks for Learning Maps between Neural Fields</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="https://jmlr.org/tmlr/"><i>Transactions on Machine Learning Research</i></a> 2023<br />
+  	</div>
+  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
+</td></tr>
+{% include table-space.html %}
+
+<tr>
 	<td class="pub_td1">
 		<a href="/interpolation">
 			<video width="100%" playsinline autoplay loop preload muted>
@@ -58,21 +70,6 @@
   <a href="/counterfactuals">Project</a> | <a href="https://ieeexplore.ieee.org/iel7/42/4359023/10145414.pdf">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
 {% include table-space.html %}
-
-<tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
-  <td class="pub_td2" bgcolor="FFFFD9"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
-		<div class='paper_metadata'>
-  	<u>Clinton Wang</u>,
-  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
-  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Workshop</i></a> 2022 <oral>Oral</oral><br />
-  	<a href="https://sites.google.com/view/neural-fields"><i>ICLR Neural Fields Workshop</i></a> 2023<br />
-  	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
-  	</div>
-  <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://www.youtube.com/watch?v=NlcOBLxbekc">Video</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
-</td></tr>
-{% include table-space.html %}
-
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="http://arxiv.org/abs/2208.02895"><img class="teaser_img" src="images/teasers/placenta_teaser.png" /></a></div></td>
@@ -117,6 +114,20 @@
 	  <a href="https://neurips.cc/Conferences/2022"><i>NeurIPS</i> 2022</a> <oral>Oral</oral><br />
 		</div>
   <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
+</td></tr>
+{% include table-space.html %}
+
+<tr>
+  <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
+  <td class="pub_td2"><b>Approximate Discretization Invariance for Deep Learning on Neural Fields</b><br />
+		<div class='paper_metadata'>
+  	<u>Clinton Wang</u>,
+  	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a><br />
+  	<a href="https://necv2022.github.io/"><i>New England Computer Vision Workshop</i></a> 2022 <oral>Oral</oral><br />
+  	<a href="https://sites.google.com/view/neural-fields"><i>ICLR Neural Fields Workshop</i></a> 2023<br />
+  	<a href="https://www.neurreps.org/"><i>NeurIPS Workshop on Symmetry and Geometry in Neural Representations</i></a> 2022<br />
+  	</div>
+  <a href="http://arxiv.org/abs/2206.01178v2">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
 {% include table-space.html %}
 
