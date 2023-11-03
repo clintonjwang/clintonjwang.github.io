@@ -83,7 +83,7 @@ author:
   name             : "Clinton Wang"
   avatar           : "profile.jpg"
   bio              : "PhD student in EECS at MIT"
-  location         : "Cambridge, MA"
+  location         : 
   employer         :
   googlescholar    : "http://scholar.google.com/citations?user=7ICTJmoAAAAJ&hl=en"
   email            : clintonw (at) csail (dot) mit (dot) edu
