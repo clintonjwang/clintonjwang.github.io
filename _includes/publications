@@ -31,7 +31,7 @@
   <td class="pub_td2"><b>Dynamic Neural Fields for Learning Atlases of 4D Fetal MRI Time-series</b><br />
 		<div class='paper_metadata'>
   	Zeen Chi, Zhongxiao Ciao, <u>Clinton Wang</u>, Yingcheng Liu, Esra Abaci Turk, Ellen Grant, Mazdak Abulnaga, Polina Golland, <a href="https://www.neeldey.com/">Neel Dey</a><br />
-  	<i>Medical Imaging Meets NeurIPS</i>2023<br />
+  	<i>Medical Imaging Meets NeurIPS</i> 2023<br />
   	</div>
   <a href="https://arxiv.org/abs/2311.02874">Paper</a> | <a href="https://github.com/Kidrauh/neural-atlasing">Code</a> 
 </td></tr>
