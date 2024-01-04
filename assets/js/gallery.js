@@ -137,8 +137,8 @@ window.onload = function() {
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
     addArtVideo("orange", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
-    addArtVideo("town", "vids", "https://www.instagram.com/p/CoVKKUjDqc1/", "Town.")
-    addArtVideo("neural_network", "vids", "https://www.instagram.com/p/CoXZhlZj5NJ/", "Backpropagation.")
+    addArtVideo("town", "vids", "https://www.instagram.com/p/CoVKKUjDqc1/", "Hidden village.")
+    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
     addCollection("misc", ["lavoix", "gcal", "pain"], '',
@@ -147,34 +147,18 @@ window.onload = function() {
         'Pain.']);
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
+    addArtVideo("neural_network", "vids", "https://www.instagram.com/p/CoXZhlZj5NJ/", "Backpropagation.")
     addArtVideo("computer", "vids", "https://www.instagram.com/p/CoShZcRDLqM/", "System update.")
     addArtVideo("mdew", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
-    addArtVideo("magic_ball", "vids", "https://www.instagram.com/p/CnnhqcltanU/", "🔮👀.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
-    addCollection("misc", ["chatgpt", "monster", "mlisa"], '',
+    addCollection("misc", ["chatgpt", "ssb_sq", "mlisa"], '',
         ['Due in 1 hour.',
-        'Stranger things.',
+        'Nostalgia.',
         'Womanhood.']);
 
-    addCollection("misc", ["geico", "nascar", "vatican"], "",
-        ['The Ensurer.',
-        'Retirement goals.',
-        'Christian rock.'])
-
-    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("dio", "vids", "https://www.instagram.com/p/CnubrhAhEeg/", "Clickbait.")
-    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
-    addArtVideo("jojo", "vids", "https://www.instagram.com/p/CnUgwucuHc7/", "Sharpener.")
-    gallery.insertAdjacentHTML('beforeend', "</div>");
-    
-    addCollection("nyse", ["ssb_sq", "bull", "bear"], "",
-        ['Nostalgia.',
-        'Bull market.',
-        'Bear market.']);
-
-    addCollection("misc", ["cork", "rbg", "plunger"], "",
-        ['Corky the corkscrew.',
-        'Michelangelo RBG pasta ad.',
-        'The plunge.']);
+    addCollection("misc", ["geico", "bear", "nascar"], "",
+        ['Kart insurance salesman.',
+        'Bear market.',
+        'Retirement goals.'])
 }

@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/) and a student researcher at Google DeepMind with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Suhani Vora](https://scholar.google.com/citations?user=mOOsGrQAAAAJ&hl=en). My research focuses on computer vision, particularly representations of 3D scenes. I also work on medical image analysis, including robust and interpretable techniques for both generative and discriminative models. I use diffusion models to make [things](#fun-ai-creations-more).
+I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/) and a student researcher at Google DeepMind with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en). My research focuses on computer vision, particularly representations of 3D scenes. I also work on medical image analysis, including robust and interpretable techniques for both generative and discriminative models. I use diffusion models to make [things](#fun-ai-creations-more).
 <!-- My projects have included analyzing brain MRI (stroke, Alzheimer's disease), liver MRI (hepatocellular carcinoma), fetal MRI (placental oxygenation), and colonoscopy videos (inflammatory bowel disease).  -->
 
 <!-- I collaborate with [Andrea Tagliasacchi](https://taiya.github.io/) and [Vincent Sitzmann](https://www.vincentsitzmann.com/). -->
