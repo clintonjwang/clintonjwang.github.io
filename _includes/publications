@@ -1,6 +1,29 @@
 ## Selected Publications ([full list]())
 
 <table class="pub_table">
+	<tr>
+		<td class="pub_td1"><div class="teaser_img_div"><a href="https://openreview.net/pdf?id=2W3KUAaZgO"><img class="teaser_img" src="images/teasers/2024_oinr.jpeg" /></a></div></td>
+		<td class="pub_td2"><b>Implicit Representations via Operator Learning</b><br />
+			<div class='paper_metadata'>
+			Sourav Pal, Harshavardhan Adepu, <u>Clinton Wang</u>,
+			<a href="https://people.csail.mit.edu/polina/">Polina Golland</a>, Vikas Singh<br />
+			<a href="https://icml.cc/"><i>ICML</i></a> 2024<br />
+			</div>
+		<a href="https://openreview.net/pdf?id=2W3KUAaZgO">Paper</a> | <a href="https://github.com/sourav-roni/learnable_wavelet">Code</a>
+	</td></tr>
+	{% include table-space.html %}
+	
+	<tr>
+		<td class="pub_td1"><div class="teaser_img_div"><a href="https://drive.google.com/file/d/16hiWLaj_PTrmaVYK78nmz6ZhyHZoTAV3/view?usp=drive_link"><img class="teaser_img" src="images/teasers/2024_internerf.jpg" /></a></div></td>
+		<td class="pub_td2"><b>InterNeRF: Scaling Radiance Fields via Parameter Interpolation</b><br />
+			<div class='paper_metadata'>
+			<u>Clinton Wang</u>, Peter Hedman, Polina Golland, Jonathan T. Barron, Daniel Duckworth<br />
+			<a href="https://neural-rendering.com/"><i>Neural Rendering Intelligence</i></a> 2024<br />
+			</div>
+		<a href="https://drive.google.com/file/d/16hiWLaj_PTrmaVYK78nmz6ZhyHZoTAV3/view?usp=drive_link">Paper</a>
+	</td></tr>
+	{% include table-space.html %}
+		
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2023_dinet.png" /></a></div></td>
   <td class="pub_td2"><b>Discretization Invariant Networks for Learning Maps between Neural Fields</b><br />
@@ -17,7 +40,8 @@
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2311.02874"><img class="teaser_img" src="images/teasers/dynamic_fields.png" /></a></div></td>
   <td class="pub_td2"><b>Dynamic Neural Fields for Learning Atlases of 4D Fetal MRI Time-series</b><br />
 		<div class='paper_metadata'>
-  	Zeen Chi, Zhongxiao Ciao, <u>Clinton Wang</u>, Yingcheng Liu, Esra Abaci Turk, Ellen Grant, Mazdak Abulnaga, Polina Golland, <a href="https://www.neeldey.com/">Neel Dey</a><br />
+  	Zeen Chi, Zhongxiao Ciao, <u>Clinton Wang</u>, Yingcheng Liu, Esra Abaci Turk, Ellen Grant, Mazdak Abulnaga,
+	<a href="https://people.csail.mit.edu/polina/">Polina Golland</a>, <a href="https://www.neeldey.com/">Neel Dey</a><br />
   	<i>Medical Imaging Meets NeurIPS</i> 2023<br />
   	</div>
   <a href="https://arxiv.org/abs/2311.02874">Paper</a> | <a href="https://github.com/Kidrauh/neural-atlasing">Code</a> 
