@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). My research includes computer vision, implicit neural representations, and medical image analysis. I was a student researcher at Google with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Peter Hedman](https://www.phogzone.com/), and interned at Adobe with [Jiawen Chen](http://people.csail.mit.edu/jiawen/) and [Cecilia Zhang](https://ceciliavision.github.io/). Before my PhD, I worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and as an undergrad at Yale I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+I am an ML research engineer at [Scale AI](https://scale.com/). My research focuses on computer vision and 3D vision. I did a PhD at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). I was a student researcher at Google with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Peter Hedman](https://www.phogzone.com/), and interned at Adobe with [Jiawen Chen](http://people.csail.mit.edu/jiawen/) and [Cecilia Zhang](https://ceciliavision.github.io/). I worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and as an undergrad I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
 
 <style type="text/css">
 	.paper_metadata a {
@@ -132,34 +132,3 @@ I am a PhD candidate at MIT CSAIL advised by [Polina Golland](https://people.csa
 <div id="rightarrow" class="button">
 	>
 </div>
-
-<!-- ## Selected Awards
-* Takeda Fellowship, 2021-2022
-* Siebel Foundation Scholar, 2020
-* Yale Department of Biomedical Engineering Prize, 2015
-* Tau Beta Pi Engineering Honor Society, 2015
-
-## Invited Talks
-* Google Brain, Toronto 2022<br>
-	<span class="subbullet">
-	Deep learning on neural fields
-* Boston Medical Imaging Workshop 2022<br>
-	<span class="subbullet">
-	Robust counterfactual image generation with spatial-intensity transforms
-* MIT-Takeda Presentation Series 2022<br>
-	<span class="subbullet">
-	Identifying radiological biomarkers with generative models -->
-
-<!--
-## Teaching
-* Teaching Assistant, Advances in Computer Vision (6.819/6.869), MIT, 2021
-* Undergraduate Mentor, MIT Undergraduate Research Opportunities Program
-* Guest Lecture, Intro to Computer Graphics (6.4400), MIT, 2022
-
-## Academic Service
-* Program Committee, Medical Imaging Meets NeurIPS Workshop (MedNeurIPS)
-* Reviewer, International Conference on Machine Learning (ICML)
-* Reviewer, Medical Image Analysis (MedIA)
-* Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
-* Reviewer, Medical Image Computing and Computer Assisted Intervention (MICCAI)
--->
