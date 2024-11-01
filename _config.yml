@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Clinton Wang"
 title_separator          : "-"
 name                     : &name "Clinton Wang"
-description              : &description "ML research engineer at Scale AI"
+description              : &description "ML Research Scientist at Scale AI"
 url                      : https://clintonjwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clintonjwang/clintonjwang.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Clinton Wang"
   avatar           : "profile.jpg"
-  bio              : "ML research engineer at Scale AI"
+  bio              : "ML Research Scientist at Scale AI"
   location         : 
   employer         :
   googlescholar    : "http://scholar.google.com/citations?user=7ICTJmoAAAAJ&hl=en"
