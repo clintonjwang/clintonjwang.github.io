@@ -92,7 +92,7 @@ author:
   googlescholar    : "http://scholar.google.com/citations?user=7ICTJmoAAAAJ&hl=en"
   email            : clintonw (at) csail (dot) mit (dot) edu
   github           : "clintonjwang"
-  twitter          : "clintonjwang"
+  linkedin         : "clintonjwang"
   instagram        : "clintonjwang"
   soundcloud       : "clintonjwang"
 
@@ -246,7 +246,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
+  # - jemoji
 
 # Mimic GitHub Pages with --safe
 whitelist:
@@ -255,7 +255,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
+  # - jemoji
 
 
 # Archives

@@ -7,7 +7,7 @@
 		<div class='paper_metadata'>
 			<u>Clinton Wang</u>, Dean Lee, Cristina Menghini, Johannes Mols, Jack Doughty, Adam Khoja, Jayson Lynch, Sean Hendryx, Summer Yue, Dan Hendrycks<br />
 		</div>
-	<a href="https://arxiv.org/pdf/2502.08859">Paper</a>
+	<a href="https://arxiv.org/pdf/2502.08859">Paper</a> | <a href="https://scale.com/leaderboard/enigma_eval">Project</a>
 </td></tr>
 {% include table-space.html %}
 
