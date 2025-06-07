@@ -38,6 +38,10 @@ sidebar: false
 
 [Paper](https://arxiv.org/abs/2307.12560) \| [Code](https://github.com/clintonjwang/ControlNet)
 
+<video width="25%" playsinline autoplay loop preload muted>
+<source src="files/interpolation.mp4" type="video/mp4">
+</video>
+
 One little-explored frontier of image generation and editing is the task of interpolating between two input images. We present a method for zero-shot controllable interpolation using latent diffusion models. 
 
 <figcaption><b><i>Drag the slider left and right. The first and last frames are the inputs.</i></b> By leveraging the powerful conditioning abilities of pre-trained diffusion models, we can generate controllable and creative interpolations between images with diverse styles, layouts, and subjects.</figcaption>

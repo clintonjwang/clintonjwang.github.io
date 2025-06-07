@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Research Scientist at [Scale AI](https://scale.com/), focusing on LLM capabilities and alignment. My previous research includes computer vision, neural radiance fields, and medical image analysis. I did a PhD at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). I was a student researcher at Google with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Peter Hedman](https://www.phogzone.com/), and interned at Adobe with [Jiawen Chen](http://people.csail.mit.edu/jiawen/) and [Cecilia Zhang](https://ceciliavision.github.io/). I worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/), and as an undergrad I did research with [Stuart Campbell](https://seas.yale.edu/faculty-research/faculty-directory/stuart-campbell).
+I am a Research Scientist at [Scale AI](https://scale.com/), focusing on LLM post-training for reasoning and agentic applications. My previous research includes computer vision, 3D scene representations, and medical image analysis. I did a PhD at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). I was a student researcher at Google DeepMind with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Peter Hedman](https://www.phogzone.com/), and interned at Adobe with [Jiawen Chen](http://people.csail.mit.edu/jiawen/) and [Cecilia Zhang](https://ceciliavision.github.io/). I worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/).
 <!-- In my free time I'm training [Brazilian Jiu-Jitsu](https://www.ralphgracie.com/). -->
 
 <style type="text/css">
@@ -123,7 +123,7 @@ I am a Research Scientist at [Scale AI](https://scale.com/), focusing on LLM cap
 
 {% include publications %}
 
-## Fun AI Creations ([more](https://www.instagram.com/clintonjwang/))
+## Fun AI Creations ([more](/interpolation))
 <div id="gallery">
 </div>
 <img id="modal" src="">
@@ -134,4 +134,4 @@ I am a Research Scientist at [Scale AI](https://scale.com/), focusing on LLM cap
 	>
 </div>
 
-[🧩](/puzzles)
+## [🧩](/puzzles)

@@ -7,13 +7,11 @@
 main:
   - title: "CV"
     url: /files/CV.pdf
-  - title: "Neural Fields"
+  - title: "Discretization Invariance"
     url: /di-net
-  - title: "Diffusion Models"
+  - title: "Image Interpolation"
     url: /interpolation
   - title: "Counterfactual Images"
     url: /counterfactuals
-  # - title: "Interpretability"
-  #   url: /interpretability
-  - title: "Fun AI Creations"
-    url: /#fun-ai-creations-more
+  # - title: "Puzzles"
+  #   url: /puzzles

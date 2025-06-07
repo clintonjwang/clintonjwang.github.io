@@ -10,51 +10,37 @@ author_profile: false
 <div class="puzzle-solution">
   <h2 class="solution-answer">Answer: AUTOMAGICAL GRADIENT IMPROVEMENTS</h2>
 
-  <p>Note that there are as many graphs ("loss curves") in each row of the image as there are blanks in each row of the fill in the blanks. Each curve correspond to one letter.</p>
-
-  <p>Start by trying to fill in the blanks with "artificial general intelligence" as suggested by the title "AGI". Note that "artificial" and "general" are one letter short:</p>
+  <p>Start by trying to fill in the blanks with "ARTIFICIAL GENERAL INTELLIGENCE" as suggested by the title "AGI". The starting value of each plot is also the character's ASCII value divided by 10. "ARTIFICIAL" and "GENERAL" are one letter short:</p>
 
   <table class="solution-table">
     <tr>
       <td>A</td><td>R</td><td>T</td><td>I</td><td>F</td><td>I</td><td>C</td><td>I</td><td>A</td><td>L</td><td class="empty-cell"></td>
     </tr>
-  </table>
-
-  <table class="solution-table">
     <tr>
       <td>G</td><td>E</td><td>N</td><td>E</td><td>R</td><td>A</td><td>L</td><td class="empty-cell"></td>
     </tr>
-  </table>
-
-  <table class="solution-table">
     <tr>
       <td>I</td><td>N</td><td>T</td><td>E</td><td>L</td><td>L</td><td>I</td><td>G</td><td>E</td><td>N</td><td>C</td><td>E</td>
     </tr>
   </table>
 
-  <p>This approach is validated by the fact that the graphs corresponding to empty slots have dramatically different scales than all the other loss curves.</p>
+  <p>This approach is validated by the fact that the graphs corresponding to empty slots have NaN losses.</p>
 
-  <p>Note that the graphs in the image all have integer differences between the starting and ending losses. Transcribing those differences (where empty slots are interpreted as spaces), we get:</p>
-
-  <table class="solution-table">
-    <tr>
-      <td>0</td><td>3</td><td>0</td><td>6</td><td>7</td><td>-8</td><td>4</td><td>0</td><td>2</td><td>-11</td><td class="empty-cell">44</td>
-    </tr>
-  </table>
+  <p>The graphs in the image all have integer differences between the starting and ending losses. Transcribing those differences, we get:</p>
 
   <table class="solution-table">
     <tr>
-      <td>0</td><td>13</td><td>-13</td><td>-1</td><td>-9</td><td>4</td><td>2</td><td class="empty-cell">52</td>
+      <td>0</td><td>3</td><td>0</td><td>6</td><td>7</td><td>-8</td><td>4</td><td>0</td><td>2</td><td>-11</td><td class="empty-cell">NaN</td>
     </tr>
-  </table>
-
-  <table class="solution-table">
+    <tr>
+      <td>0</td><td>13</td><td>-13</td><td>-1</td><td>-9</td><td>4</td><td>2</td><td class="empty-cell">NaN</td>
+    </tr>
     <tr>
       <td>0</td><td>-1</td><td>-4</td><td>13</td><td>3</td><td>10</td><td>-4</td><td>6</td><td>0</td><td>0</td><td>17</td><td>14</td>
     </tr>
   </table>
 
-  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield the final answer.</p>
+  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield "AUTOMAGICA_ GRADIEN_ IMPROVEMENTS". Take the starting values of the NaN plots and multiply them by 10 to arrive at the ASCII values of the missing "L" and "T", yielding the final answer.</p>
 
   <div class="solution-buttons">
     <a href="{{ site.baseurl }}/puzzles/agi" class="puzzle-button back-button">Back to Puzzle</a>

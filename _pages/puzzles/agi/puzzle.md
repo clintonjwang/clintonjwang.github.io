@@ -16,9 +16,7 @@ author_profile: false
 <p class="puzzle-flavor-text">What do AI researchers dream of?</p>
 
 <div class="puzzle-images">
-  <img src="{{ site.baseurl }}/assets/puzzles/agi/image1.png" alt="Puzzle Image 1" class="puzzle-image">
-  <img src="{{ site.baseurl }}/assets/puzzles/agi/image2.png" alt="Puzzle Image 2" class="puzzle-image">
-  <img src="{{ site.baseurl }}/assets/puzzles/agi/image3.png" alt="Puzzle Image 3" class="puzzle-image">
+  <img src="{{ site.baseurl }}/assets/puzzles/agi/image1.png" alt="Puzzle Image" class="puzzle-image">
 </div>
 
 <div class="puzzle-actions">

@@ -5,11 +5,11 @@ permalink: /puzzles/
 author_profile: true
 ---
 
-Puzzles designed for Scale AI.
+These puzzles don't come with instructions! If you are new to these kinds of puzzles, check out MIT Mystery Hunt's [resources for beginners](https://puzzles.mit.edu/resources.html).
 <div class="puzzle-gallery">
   <div class="puzzle-item">
     <a href="{{ site.baseurl }}/puzzles/agi">
-      <img src="{{ site.baseurl }}/assets/puzzles/agi/image2.png" alt="AGI Puzzle Preview" class="puzzle-preview-image">
+      <img src="{{ site.baseurl }}/assets/puzzles/agi/preview.png" alt="AGI Puzzle Preview" class="puzzle-preview-image">
       <div class="puzzle-item-title">AGI</div>
     </a>
   </div>

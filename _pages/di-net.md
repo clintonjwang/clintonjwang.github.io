@@ -17,7 +17,7 @@ sidebar: false
   <source src="files/neurreps_video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video> -->
-<iframe width="420" height="315" src="https://www.youtube.com/embed/NlcOBLxbekc"></iframe>
+<!-- <iframe width="420" height="315" src="https://www.youtube.com/embed/NlcOBLxbekc"></iframe> -->
 
 Neural fields (NFs) like [NeRF](https://www.matthewtancik.com/nerf) and [SIREN](https://www.vincentsitzmann.com/siren/) are powerful representations of continuous data, but there's a need for deep learning architectures that perform inference on such data without being sensitive to how the neural field is sampled, a property called **discretization invariance**.
 
@@ -53,16 +53,16 @@ DI-Nets derived from CNNs can learn tasks on neural fields under various discret
 
 <figcaption>Performance under different types of discretizations at training and test time.</figcaption>
 
-| **Train $\to$ Test Discretization** | **Accuracy** |
+| **Train to Test Discretization** | **Accuracy** |
 | --- | --- |
-| QMC $\to$ QMC | **32.9%** |
-| Grid $\to$ Grid | 30.5% |
-| Shrunk $\to$ Shrunk | 30.3% |
+| QMC to QMC | **32.9%** |
+| Grid to Grid | 30.5% |
+| Shrunk to Shrunk | 30.3% |
 | --- | --- |
-| QMC $\to$ Grid | 27.1% |
-| Grid $\to$ QMC | 27.8% |
-| QMC $\to$ Shrunk | 25.4% |
-| Shrunk $\to$ QMC | 13.4% |
+| QMC to Grid | 27.1% |
+| Grid to QMC | 27.8% |
+| QMC to Shrunk | 25.4% |
+| Shrunk to QMC | 13.4% |
 
 Read [our paper](http://arxiv.org/abs/2206.01178) for more details, or check out [our code](https://github.com/clintonjwang/di-net)
 

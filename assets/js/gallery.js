@@ -130,15 +130,15 @@ window.onload = function() {
 
     let gallery = document.getElementById("gallery");
 
-    addCollection("grilled", ["09", "16", "17"], "",
-        ['Grilled violin.',
-        'Grilled tennis ball.',
-        'Grilled light bulb.']);
+    // addCollection("grilled", ["09", "16", "17"], "",
+    //     ['Grilled violin.',
+    //     'Grilled tennis ball.',
+    //     'Grilled light bulb.']);
 
     gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
     addArtVideo("orange", "vids", "https://www.instagram.com/p/CnPWggDOJVM/", "Diabolical orange.")
     addArtVideo("town", "vids", "https://www.instagram.com/p/CoVKKUjDqc1/", "Hidden village.")
-    addArtVideo("pokemon", "vids", "https://www.instagram.com/p/CnfFzESOTj8/", "Unnatural selection.")
+    addArtVideo("neural_network", "vids", "https://www.instagram.com/p/CoXZhlZj5NJ/", "Backpropagation.")
     gallery.insertAdjacentHTML('beforeend', "</div>");
 
     addCollection("misc", ["lavoix", "gcal", "pain"], '',
@@ -146,19 +146,13 @@ window.onload = function() {
         'Find time on my calendar.',
         'Pain.']);
 
-    gallery.insertAdjacentHTML('beforeend', '<div class="gallery-row">');
-    addArtVideo("neural_network", "vids", "https://www.instagram.com/p/CoXZhlZj5NJ/", "Backpropagation.")
-    addArtVideo("computer", "vids", "https://www.instagram.com/p/CoShZcRDLqM/", "System update.")
-    addArtVideo("mdew", "vids", "https://www.instagram.com/p/CnZ9Fm6OS2J/", "Mountain Dew.")
-    gallery.insertAdjacentHTML('beforeend', "</div>");
+    // addCollection("misc", ["chatgpt", "ssb_sq", "nascar"], '',
+    //     ['Due in 1 hour.',
+    //     'Nostalgia.',
+    //     'Retirement goals.']);
 
-    addCollection("misc", ["chatgpt", "ssb_sq", "mlisa"], '',
-        ['Due in 1 hour.',
-        'Nostalgia.',
-        'Womanhood.']);
-
-    addCollection("misc", ["geico", "bear", "nascar"], "",
-        ['Kart insurance salesman.',
-        'Bear market.',
-        'Retirement goals.'])
+    // addCollection("misc", ["geico", "bear", ""], "",
+    //     ['Kart insurance salesman.',
+    //     'Bear market.',
+    //     ])
 }
