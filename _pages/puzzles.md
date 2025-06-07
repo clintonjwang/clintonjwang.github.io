@@ -5,7 +5,7 @@ permalink: /puzzles/
 author_profile: true
 ---
 
-These puzzles don't come with instructions! If you are new to these kinds of puzzles, check out MIT Mystery Hunt's [resources for beginners](https://puzzles.mit.edu/resources.html).
+These puzzles don't come with instructions! You can use any tools (ChatGPT, Google, etc.) to help you solve them. If you are new to these kinds of puzzles, check out MIT Mystery Hunt's [resources for beginners](https://puzzles.mit.edu/resources.html).
 <div class="puzzle-gallery">
   <div class="puzzle-item">
     <a href="{{ site.baseurl }}/puzzles/agi">

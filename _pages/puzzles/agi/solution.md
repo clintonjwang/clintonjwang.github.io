@@ -40,7 +40,7 @@ author_profile: false
     </tr>
   </table>
 
-  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield "AUTOMAGICA_ GRADIEN_ IMPROVEMENTS". Take the starting values of the NaN plots and multiply them by 10 to arrive at the ASCII values of the missing "L" and "T", yielding the final answer.</p>
+  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield "AUTOMAGICA_ GRADIEN_ IMPROVEMENTS". Take the starting values of the NaN plots and multiply them by 10 to arrive at the ASCII values of the missing characters ("L" and "T"), yielding the final answer.</p>
 
   <div class="solution-buttons">
     <a href="{{ site.baseurl }}/puzzles/agi" class="puzzle-button back-button">Back to Puzzle</a>
