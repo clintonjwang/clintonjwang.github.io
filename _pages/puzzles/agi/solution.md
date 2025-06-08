@@ -10,21 +10,21 @@ author_profile: false
 <div class="puzzle-solution">
   <h2 class="solution-answer">Answer: AUTOMAGICAL GRADIENT IMPROVEMENTS</h2>
 
-  <p>Start by trying to fill in the blanks with "ARTIFICIAL GENERAL INTELLIGENCE" as suggested by the title "AGI". The starting value of each plot is also the character's ASCII value divided by 10. "ARTIFICIAL" and "GENERAL" are one letter short:</p>
+  <p>Each subplot corresponds to a character. The starting value of each plot is the character's ASCII value divided by 10, as hinted by the comment: "The loss curves look decimated at the start". This yields "ARTIFICIAL(L) GENERAL(T) INTELLIGENCE" as suggested by the title "AGI".</p>
 
   <table class="solution-table">
     <tr>
-      <td>A</td><td>R</td><td>T</td><td>I</td><td>F</td><td>I</td><td>C</td><td>I</td><td>A</td><td>L</td><td class="empty-cell"></td>
+      <td>A</td><td>R</td><td>T</td><td>I</td><td>F</td><td>I</td><td>C</td><td>I</td><td>A</td><td>L</td><td class="empty-cell">L</td>
     </tr>
     <tr>
-      <td>G</td><td>E</td><td>N</td><td>E</td><td>R</td><td>A</td><td>L</td><td class="empty-cell"></td>
+      <td>G</td><td>E</td><td>N</td><td>E</td><td>R</td><td>A</td><td>L</td><td class="empty-cell">T</td>
     </tr>
     <tr>
       <td>I</td><td>N</td><td>T</td><td>E</td><td>L</td><td>L</td><td>I</td><td>G</td><td>E</td><td>N</td><td>C</td><td>E</td>
     </tr>
   </table>
 
-  <p>This approach is validated by the fact that the graphs corresponding to empty slots have NaN losses.</p>
+  <p>This approach is validated by the fact that the graphs corresponding to extra characters have NaN losses.</p>
 
   <p>The graphs in the image all have integer differences between the starting and ending losses. Transcribing those differences, we get:</p>
 
@@ -40,7 +40,7 @@ author_profile: false
     </tr>
   </table>
 
-  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield "AUTOMAGICA_ GRADIEN_ IMPROVEMENTS". Take the starting values of the NaN plots and multiply them by 10 to arrive at the ASCII values of the missing characters ("L" and "T"), yielding the final answer.</p>
+  <p>Take the corresponding letter and increment its ASCII representation by this amount to yield "AUTOMAGICAL GRADIENT IMPROVEMENTS".</p>
 
   <div class="solution-buttons">
     <a href="{{ site.baseurl }}/puzzles/agi" class="puzzle-button back-button">Back to Puzzle</a>

@@ -17,9 +17,10 @@ author_profile: false
 
 <div class="puzzle-images">
   <img src="{{ site.baseurl }}/assets/puzzles/agi/image1.png" alt="Puzzle Image" class="puzzle-image">
+  <p>The loss curves look decimated at the start, but for some runs gradient descent still works its magic.</p>
 </div>
 
-<details class="puzzle-table-dropdown">
+<details class="puzzle-dropdown">
   <summary>Show Transcribed Numbers</summary>
   <div class="puzzle-table-container">
     <table class="puzzle-table">
@@ -122,15 +123,29 @@ author_profile: false
   </div>
 </details>
 
+<details class="puzzle-dropdown">
+  <summary>Hints</summary>
+  <div class="hint-content">
+    <div class="hint-item">
+      <strong>Hint 1:</strong> 
+      <span class="spoiler" onclick="this.classList.toggle('revealed')">Multiply the starting values by 10 to decode them.</span>
+    </div>
+    <div class="hint-item">
+      <strong>Hint 2:</strong> 
+      <span class="spoiler" onclick="this.classList.toggle('revealed')">The differences between start and end values are all integers.</span>
+    </div>
+  </div>
+</details>
+
 <style>
-.puzzle-table-dropdown {
+.puzzle-dropdown {
   margin: 20px 0;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fafafa;
 }
 
-.puzzle-table-dropdown summary {
+.puzzle-dropdown summary {
   padding: 15px;
   cursor: pointer;
   font-weight: normal;
@@ -139,11 +154,11 @@ author_profile: false
   user-select: none;
 }
 
-.puzzle-table-dropdown summary:hover {
+.puzzle-dropdown summary:hover {
   background-color: #e8e8e8;
 }
 
-.puzzle-table-dropdown[open] summary {
+.puzzle-dropdown[open] summary {
   border-bottom: 1px solid #ddd;
   border-radius: 5px 5px 0 0;
 }
@@ -152,6 +167,65 @@ author_profile: false
   overflow-x: auto;
   margin: 0;
   padding: 15px;
+}
+
+.hint-content {
+  padding: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hint-content p {
+  margin: 0 0 10px 0;
+}
+
+.hint-content p:last-child {
+  margin-bottom: 0;
+}
+
+.hint-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border-left: 3px solid #007acc;
+}
+
+.hint-item:last-child {
+  margin-bottom: 0;
+}
+
+.spoiler {
+  background-color: #333;
+  color: #333;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 4px;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.spoiler:hover {
+  background-color: #555;
+  color: #555;
+}
+
+.spoiler.revealed {
+  background-color: transparent;
+  color: inherit;
+  cursor: default;
+}
+
+.spoiler::before {
+  content: "🔍";
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-right: 5px;
+}
+
+.spoiler.revealed::before {
+  content: "";
+  margin-right: 0;
 }
 
 .puzzle-table {
