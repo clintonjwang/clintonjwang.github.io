@@ -2,6 +2,16 @@
 
 <table class="pub_table">
 <tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2506.11425"><img class="teaser_img" src="images/teasers/2025_agent_rlvr.png" /></a></div></td>
+	<td class="pub_td2"><b>Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards</b><br />
+		<div class='paper_metadata'>
+			Jeff Da, <u>Clinton Wang</u>, Xiang Deng, Yuntao Ma, Nikhil Barhate, Sean Hendryx<br />
+		</div>
+	<a href="https://arxiv.org/pdf/2506.11425">Paper</a>
+</td></tr>
+{% include table-space.html %}
+	
+<tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2502.08859"><img class="teaser_img" src="images/teasers/2025_enigmaeval.png" /></a></div></td>
 	<td class="pub_td2"><b>EnigmaEval: A Benchmark of Long Multimodal Reasoning Challenges</b><br />
 		<div class='paper_metadata'>
