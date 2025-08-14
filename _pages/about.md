@@ -10,8 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Research Scientist at [Scale AI](https://scale.com/), focusing on LLM post-training for reasoning and agentic applications. My previous research includes computer vision, 3D scene representations, and medical image analysis. I did a PhD at MIT CSAIL advised by [Polina Golland](https://people.csail.mit.edu/polina/). I was a student researcher at Google DeepMind with [Daniel Duckworth](https://scholar.google.com/citations?user=2fWmq-4AAAAJ&hl=en) and [Peter Hedman](https://www.phogzone.com/), and interned at Adobe with [Jiawen Chen](http://people.csail.mit.edu/jiawen/) and [Cecilia Zhang](https://ceciliavision.github.io/). I worked with [Jim Duncan](https://medicine.yale.edu/profile/james_duncan/) and [Julius Chapiro](https://medicine.yale.edu/profile/julius_chapiro/) in the [Yale Radiology Research Lab](https://medicine.yale.edu/lab/radresearch/).
-<!-- In my free time I'm training [Brazilian Jiu-Jitsu](https://www.ralphgracie.com/). -->
+<!-- I do ML research at Jane Street. -->My previous research includes LLM post-training, computer vision, 3D scene representations, and medical image analysis. I was a Research Scientist at Scale AI, and I did a PhD at MIT CSAIL advised by Polina Golland. I interned at Google DeepMind and Adobe, and worked in the Yale Radiology Research Lab. In my free time I enjoy [Brazilian Jiu-Jitsu](https://www.renzograciewst.com/).
+<!-- and [improv](). -->
 
 <style type="text/css">
 	.paper_metadata a {
