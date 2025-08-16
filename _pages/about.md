@@ -10,8 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- I do ML research at Jane Street. -->My previous research includes LLM post-training, computer vision, 3D scene representations, and medical image analysis. I was a Research Scientist at Scale AI, and I did a PhD at MIT CSAIL advised by Polina Golland. I interned at Google DeepMind and Adobe, and worked in the Yale Radiology Research Lab. In my free time I enjoy [Brazilian Jiu-Jitsu](https://www.renzograciewst.com/).
-<!-- and [improv](). -->
+I do ML research at Jane Street. My previous research includes LLM post-training, computer vision, 3D scene representations, and medical image analysis. I was a Research Scientist at Scale AI, and I did a PhD at MIT CSAIL advised by Polina Golland. I interned at Google DeepMind and Adobe, and worked in the Yale Radiology Research Lab. In my free time I enjoy [Brazilian Jiu-Jitsu](https://renzogracieacademy.com/).
 
 <style type="text/css">
 	.paper_metadata a {
