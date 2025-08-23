@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "clinton wang"
 title_separator          : "-"
 name                     : &name "clinton wang"
-description              : &description "ml researcher"
+description              : &description "Personal website"
 url                      : https://clintonjwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clintonjwang/clintonjwang.github.io"
@@ -84,16 +84,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "clinton wang"
+  name             : ""
   avatar           : "profile.jpg"
   bio              : 
   location         : 
   employer         :
   googlescholar    : "http://scholar.google.com/citations?user=7ICTJmoAAAAJ&hl=en"
   email            : clintonjwang (at) gmail (dot) com
-  github           : "clintonjwang"
   linkedin         : "clintonjwang"
   soundcloud       : "clintonjwang"
+  # github           : "clintonjwang"
 
 
 # Reading Files
