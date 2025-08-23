@@ -10,8 +10,8 @@
 locale                   : "en-US"
 title                    : "clinton wang"
 title_separator          : "-"
-name                     : &name "clinton wang"
-description              : 
+name                     : &name " "
+description              : &description " "
 url                      : https://clintonjwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clintonjwang/clintonjwang.github.io"
