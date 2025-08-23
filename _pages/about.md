@@ -122,7 +122,7 @@ I do ML research at Jane Street. My previous research includes LLM post-training
 
 {% include publications %}
 
-## Fun AI Creations ([more](/interpolation))
+<!-- ## Fun AI Creations ([more](/interpolation))
 <div id="gallery">
 </div>
 <img id="modal" src="">
@@ -133,4 +133,4 @@ I do ML research at Jane Street. My previous research includes LLM post-training
 	>
 </div>
 
-## [🧩](/puzzles)
+## [🧩](/puzzles) -->

@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Clinton Wang"
+title                    : "clinton wang"
 title_separator          : "-"
-name                     : &name "Clinton Wang"
-description              : &description "ML Researcher at Jane Street"
+name                     : &name "clinton wang"
+description              : 
 url                      : https://clintonjwang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clintonjwang/clintonjwang.github.io"
@@ -84,9 +84,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Clinton Wang"
+  name             : "clinton wang"
   avatar           : "profile.jpg"
-  bio              : "ML Researcher at Jane Street"
+  bio              : 
   location         : 
   employer         :
   googlescholar    : "http://scholar.google.com/citations?user=7ICTJmoAAAAJ&hl=en"
