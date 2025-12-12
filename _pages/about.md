@@ -39,30 +39,6 @@ I do ML research at Jane Street. My previous research includes LLM post-training
 		color: red;
 	}
 
-    /* Style the gallery */
-    #gallery {
-		/* display: block; */
-		display: flex;
-		flex-wrap: wrap;
-    }
-
-    /* Style the art pieces */
-    .gallery-row {
-		display: block; /* Display the art pieces in a row */
-		width: 100%; /* Set the width of each art piece to 30% of the gallery width */
-    }
-
-    .art-piece {
-		width: 30%; /* Set the width of each art piece to 30% of the gallery width */
-		margin: 1%; /* Add some margin around each art piece */
-    }
-
-    /* Style the images */
-    .art-piece img {
-    	cursor: pointer;
-		width: 100%;
-    }
-	
 	/* Style the modals */
 	#modal {
 		display: none;
@@ -121,16 +97,3 @@ I do ML research at Jane Street. My previous research includes LLM post-training
 })</script>
 
 {% include publications %}
-
-<!-- ## Fun AI Creations ([more](/interpolation))
-<div id="gallery">
-</div>
-<img id="modal" src="">
-<div id="leftarrow" class="button">
-	<
-</div>
-<div id="rightarrow" class="button">
-	>
-</div>
-
-## [🧩](/puzzles) -->
