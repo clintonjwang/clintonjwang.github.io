@@ -2,6 +2,17 @@
 
 <table class="pub_table">
 <tr>
+	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2511.07685"><img class="teaser_img" src="images/teasers/2026_iclr.png" /></a></div></td>
+	<td class="pub_td2"><b>ResearchRubrics: A benchmark of prompts and rubrics for evaluating deep research agents</b><br />
+		<div class='paper_metadata'>
+			Manasi Sharma, Chen Bo Calvin Zhang, Chaithanya Bandi, <u>Clinton Wang</u>, Ankit Aich, Huy Nghiem, Tahseen Rabbani, Ye Htet, Brian Jang, Sumana Basu, Aishwarya Balwani, Denis Peskoff, Marcos Ayestaran, Sean Hendryx, Brad Kenstler, Bing Liu<br />
+		<a href="https://iclr.cc/"><i>ICLR</i></a> 2026<br />
+		</div>
+	<a href="https://arxiv.org/pdf/2511.07685">Paper</a> | <a href="https://scale.com/research/researchrubrics">Project</a>
+</td></tr>
+{% include table-space.html %}
+
+<tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2506.11425"><img class="teaser_img" src="images/teasers/2025_agent_rlvr.png" /></a></div></td>
 	<td class="pub_td2"><b>Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards</b><br />
 		<div class='paper_metadata'>
