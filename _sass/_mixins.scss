@@ -11,11 +11,69 @@
 }
 
 /*
+   Breakpoint mixin
+   ========================================================================== */
+
+@mixin breakpoint($size) {
+  @if $size == $small {
+    @media (min-width: $small) {
+      @content;
+    }
+  } @else if $size == $medium {
+    @media (min-width: $medium) {
+      @content;
+    }
+  } @else if $size == $medium-wide {
+    @media (min-width: $medium-wide) {
+      @content;
+    }
+  } @else if $size == $large {
+    @media (min-width: $large) {
+      @content;
+    }
+  } @else if $size == $x-large {
+    @media (min-width: $x-large) {
+      @content;
+    }
+  } @else {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
+}
+
+/*
    em function
    ========================================================================== */
 
 @function em($target, $context: $doc-font-size) {
   @return ($target / $context) * 1em;
+}
+
+/*
+   Susy grid replacement mixins (simplified)
+   ========================================================================== */
+
+@mixin container {
+  max-width: $x-large;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin full {
+  width: 100%;
+}
+
+@mixin span($cols) {
+  width: 100%;
+}
+
+@mixin prefix($space) {
+  margin-left: 0;
+}
+
+@mixin suffix($space) {
+  margin-right: 0;
 }
 
 

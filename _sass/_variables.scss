@@ -113,7 +113,6 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    Breakpoints
    ========================================================================== */
 
-@include breakpoint-set("to ems", true);
 /*
 $small                      : 400px;
 $medium                     : 500px;
@@ -135,23 +134,6 @@ $x-large                    : 1280px !default;
 $right-sidebar-width-narrow : 200px !default;
 $right-sidebar-width        : 300px !default;
 $right-sidebar-width-wide   : 400px !default;
-
-$susy: (
-  columns: 12,
-  column-width: 120px,
-  gutters: 1/4,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: $large,
-  global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
-);
 
 
 /*

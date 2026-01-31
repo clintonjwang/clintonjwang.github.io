@@ -10,7 +10,7 @@
 		</div>
 	<a href="https://arxiv.org/pdf/2511.07685">Paper</a> | <a href="https://scale.com/research/researchrubrics">Project</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2506.11425"><img class="teaser_img" src="images/teasers/2025_agent_rlvr.png" /></a></div></td>
@@ -20,7 +20,7 @@
 		</div>
 	<a href="https://arxiv.org/pdf/2506.11425">Paper</a>
 </td></tr>
-{% include table-space.html %}
+
 	
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2502.08859"><img class="teaser_img" src="images/teasers/2025_enigmaeval.png" /></a></div></td>
@@ -30,7 +30,7 @@
 		</div>
 	<a href="https://arxiv.org/pdf/2502.08859">Paper</a> | <a href="https://scale.com/leaderboard/enigma_eval">Project</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2411.02372"><img class="teaser_img" src="images/teasers/2025_anatomix.png" /></a></div></td>
@@ -42,7 +42,7 @@
 		</div>
 	<a href="https://arxiv.org/pdf/2411.02372">Paper</a> | <a href="https://github.com/neel-dey/anatomix">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://openreview.net/pdf?id=2W3KUAaZgO"><img class="teaser_img" src="images/teasers/2024_oinr.jpeg" /></a></div></td>
@@ -54,7 +54,7 @@
 		</div>
 	<a href="https://openreview.net/pdf?id=2W3KUAaZgO">Paper</a> | <a href="https://github.com/vsingh-group/oinr">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2406.11737"><img class="teaser_img" src="images/teasers/2024_internerf.jpg" /></a></div></td>
@@ -65,7 +65,7 @@
 		</div>
 	<a href="https://arxiv.org/abs/2406.11737">Paper</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2023_dinet.png" /></a></div></td>
@@ -77,7 +77,7 @@
   	</div>
   <a href="/di-net">Project</a> | <a href="http://arxiv.org/abs/2206.01178">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://arxiv.org/abs/2311.02874"><img class="teaser_img" src="images/teasers/dynamic_fields.png" /></a></div></td>
@@ -89,7 +89,7 @@
   	</div>
   <a href="https://arxiv.org/abs/2311.02874">Paper</a> | <a href="https://github.com/Kidrauh/neural-atlasing">Code</a> 
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1">
@@ -108,7 +108,7 @@
 	<a href="/interpolation">Project</a> | <a href="https://arxiv.org/abs/2307.12560">Paper</a> | <a href="https://github.com/clintonjwang/ControlNet">Code</a>
 	</td>
 </tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/counterfactuals"><img class="teaser_img" src="images/teasers/tmi23_teaser.png" /></a></div></td>
@@ -121,7 +121,7 @@
   	</div>
   <a href="/counterfactuals">Project</a> | <a href="https://ieeexplore.ieee.org/iel7/42/4359023/10145414.pdf">Paper</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.59275/j.melba.2023-g3f8"><img class="teaser_img" src="images/teasers/placenta_teaser.png" /></a></div></td>
@@ -136,7 +136,7 @@
 		</div>
 	<a href="https://doi.org/10.59275/j.melba.2023-g3f8">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <!--
 <tr>
@@ -153,7 +153,7 @@
   <a href="http://arxiv.org/abs/2208.02895">Paper</a> | <a href="https://github.com/mabulnaga/automatic-placenta-segmentation">Code</a>
 </td></tr>
 <tr><td class="pub_td1"></td><td class="pub_td2"></td></tr>
-{% include table-space.html %} -->
+ -->
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://dominikvincent.github.io/projects/nesf"><img class="teaser_img" src="images/teasers/2023_dominik-seg.png" /></a></div></td>
@@ -165,7 +165,7 @@
 		</div>
 	<a href="https://dominikvincent.github.io/projects/nesf">Project</a> | <a href="https://arxiv.org/abs/2310.05133">Paper</a> | <a href="https://github.com/DominikVincent/GeometryAwareField2FieldTransformations">Code</a> 
 </td></tr>
-{% include table-space.html %}
+
   
 <tr>
 	<td class="pub_td1">
@@ -195,7 +195,7 @@
 		</div>
   <a href="https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/">Project</a> | <a href="https://arxiv.org/abs/2202.01771">Paper</a> | <a href="https://github.com/ShuangLI59/Pre-Trained-Language-Models-for-Interactive-Decision-Making">Code</a> 
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="/di-net"><img class="teaser_img" src="images/teasers/2022_dinet.png" /></a></div></td>
@@ -209,7 +209,7 @@
   	</div>
   <a href="http://arxiv.org/abs/2206.01178v2">Paper</a> | <a href="https://github.com/clintonjwang/DI-net">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-020-07559-1"><img class="teaser_img" src="images/teasers/2021_eurorad_paula.png" /></a></div></td>
@@ -228,7 +228,7 @@
 		</div>
   <a href="https://doi.org/10.1007/s00330-020-07559-1">Paper</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/978-3-030-59713-9_72"><img class="teaser_img" src="images/teasers/miccai20_teaser.png" /></a></div></td>
@@ -242,7 +242,7 @@
   	</div>
   <a href="/counterfactuals">Project</a> | <a href="https://doi.org/10.1007/978-3-030-59713-9_72">Paper</a> | <a href="https://www.youtube.com/watch?v=n8nPG7xlL-0">Video</a> | <a href="https://github.com/clintonjwang/spatial-intensity-transforms">Code</a> 
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
   <td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1038/s41598-020-75120-7"><img class="teaser_img" src="images/teasers/2020_scireports.png" /></a></div></td>
@@ -260,7 +260,7 @@
 		</div>
   <a href="https://doi.org/10.1038/s41598-020-75120-7">Paper</a> | <a href="https://github.com/clintonjwang/lipiodol">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <!-- <tr><td class="year_heading">2019<hr class="year_hr_wteaser"></td></tr> -->
 <tr>
@@ -274,7 +274,7 @@
 		</div>
 	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1117/12.2512473">Paper</a> | <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10950/2512473/A-probabilistic-approach-for-interpretable-deep-learning-in-liver-cancer/10.1117/12.2512473.full">Talk</a> | <a href="https://github.com/clintonjwang/voi-classifier">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06214-8"><img class="teaser_img" src="images/teasers/2020_eurorad_part2.png"/></a></div></td>
@@ -292,7 +292,7 @@
 		</div>
 	<a href="/interpretability">Project</a> | <a href="https://doi.org/10.1007/s00330-019-06214-8">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part2">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1007/s00330-019-06205-9"><img class="teaser_img" src="images/teasers/2020_eurorad_part1.png"/></a></div></td>
@@ -309,7 +309,7 @@
 		</div>
 	<a href="https://doi.org/10.1007/s00330-019-06205-9">Paper</a> | <a href="https://github.com/clintonjwang/voi-classifier/tree/part1">Code</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.jvir.2018.08.032"><img class="teaser_img" src="images/teasers/jvir_review_teaser.jpg"/></a></div></td>
@@ -322,7 +322,7 @@
 		</div>
 	<a href="https://doi.org/10.1016/j.jvir.2018.08.032">Paper</a>
 </td></tr>
-{% include table-space.html %}
+
 
 <tr>
 	<td class="pub_td1"><div class="teaser_img_div"><a href="https://doi.org/10.1016/j.yjmcc.2015.10.007"><img class="teaser_img" src="images/teasers/mybpc_jmcc.png"/></a></div></td>
