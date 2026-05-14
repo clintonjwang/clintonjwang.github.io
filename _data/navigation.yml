@@ -5,13 +5,11 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "CV"
-    url: /files/CV.pdf
   # - title: "Discretization Invariance"
   #   url: /di-net
   # - title: "Meme Interpolation"
   #   url: /interpolation
   # - title: "Counterfactual Images"
   #   url: /counterfactuals
-  # - title: "Puzzles"
-  #   url: /puzzles
+  - title: "Puzzles"
+    url: /puzzles
